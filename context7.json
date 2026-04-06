@@ -1,0 +1,12 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Veeam Service Provider Console Docs",
+  "description": "Unofficial documentation dump for Veeam Service Provider Console (VSPC). Includes the Guide for Service Providers and Guide for End Users.",
+  "folders": ["docs"],
+  "excludeFolders": [],
+  "excludeFiles": [],
+  "rules": [
+    "This is unofficial documentation - always verify against official Veeam Help Center",
+    "docs/ contains the Guide for Service Providers; docs/provider_user/ contains the Guide for End Users"
+  ]
+}
