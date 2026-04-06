@@ -1,0 +1,27 @@
+---
+title: "Configuring Windows Discovery Rules"
+product: "vspc"
+doc_type: "provider_admin"
+source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/discovery_windows.html"
+last_updated: "1/4/2024"
+product_version: "9.1.0.30636"
+---
+
+# Configuring Windows Discovery Rules
+
+
+For Windows computers Veeam Service Provider Console supports the following discovery methods:
+
+* [Network-based discovery](configure_network_discovery.md)
+
+This method allows you to discover computers based on a range of IP addresses.
+
+* [Active Directory discovery](configure_ad_discovery.md)
+
+This method allows you to discover computers being part of an AD domain.
+
+* [Import-based discovery](configure_import_discovery.md)
+
+This method allows you to discover computers by importing a list of IP addresses from a CSV file.
+
+
