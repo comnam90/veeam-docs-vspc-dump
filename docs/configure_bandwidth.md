@@ -3,8 +3,8 @@ title: "Step 5. Configure Bandwidth Settings"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_bandwidth.html"
-last_updated: "8/20/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/18/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 5. Configure Bandwidth Settings
@@ -29,7 +29,7 @@ To select specific gateway pools:
 
 The list of available cloud gateway pools contains pools that you configured on the Veeam Cloud Connect server, selected as the cloud tenant site at the [Tenant Info](specify_tenant_credentials.md) step. For details on configuring cloud gateway pools, see section [Configuring Cloud Gateway Pools](https://helpcenter.veeam.com/docs/backup/cloud/cloud_gateway_pool_add.html) of the Veeam Cloud Connect Guide.
 
-1. To allow the cloud tenant to fail over to a cloud gateway that is not added to the selected cloud gateway pool in case all cloud gateways in the pool are unavailable, select the Failover to other cloud gateways if all gateways from the selected pool are unavailable check box.
+1. To allow the cloud tenant to fail over to a cloud gateway that is not added to the selected cloud gateway pool in case all cloud gateways in the pool are unavailable, select the Fail over to other cloud gateways if all gateways from the selected pool are unavailable check box.
 2. Click OK.
 
 1. In the Data transfer out section, specify the amount of data that the company is allowed to download from the cloud repository during a billing period.
