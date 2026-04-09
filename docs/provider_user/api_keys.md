@@ -3,8 +3,8 @@ title: "Configuring API Keys"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/api_keys.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/24/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring API Keys
@@ -14,7 +14,7 @@ To configure Veeam Service Provider Console integration with third party solutio
 
 In Veeam Service Provider Console, you can configure the following API keys:
 
-* [Simple Key](#simple) — this API key is recommended for configuring Veeam Service Provider Console REST API authentication. For details, see section [API Key-Based Authorization](https://helpcenter.veeam.com/references/vac/9.1/rest/tag/SectionOverview#section/Authorization-and-Security/API-Key-Based-Authorization) of the REST API Reference.
+* [Simple Key](#simple) — this API key is recommended for configuring Veeam Service Provider Console REST API authentication. For details, see section [API Key-Based Authorization](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/SectionOverview#section/Authorization-and-Security/API-Key-Based-Authorization) of the REST API Reference.
 * [Advanced Key](#rsa) — this API key is recommended for configuring third party integrations.
 
 |  |
