@@ -3,8 +3,8 @@ title: "Virtual Machines"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/export_vm_job_details.html"
-last_updated: "9/4/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Virtual Machines
@@ -28,7 +28,7 @@ To narrow down the list of jobs, you can apply the following filters:
 * Status — limit the list of jobs by the result of the latest job session (Success, Warning, Failed, Running, Information).
 * Type — limit the list of jobs by type (Backup, Replication, SureBackup, Backup copy, Backup to tape, VM copy, SQL database log backup job, Oracle database log backup job, PostgreSQL database log backup job, Storage snapshot, CDP policy).
 * Backup server type — limit the list of jobs by the type of server on which jobs are configured (Veeam Backup & Replication, Veeam Cloud Connect).
-* Platform type — limit the list of jobs by the type of platform on which protected VMs run (vSphere, Cloud Director, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore Other).
+* Platform type — limit the list of jobs by the type of platform on which protected VMs run (vSphere, Cloud Director, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials, Other).
 * Backup target — limit the list of jobs by target backup location (Local, Offsite).
 
 * Site/Reseller/Company/Location — limit the list of jobs by Veeam Cloud Connect site, reseller, company and location to which jobs belong. To limit the list of jobs by site, reseller, company and location, use filters at the top left corner of the Veeam Service Provider Console window.
@@ -53,7 +53,7 @@ Each job in the list is described with a set of properties. By default, some pro
 * Server — name of a backup server on which a job is configured.
 * Job Status — status of the latest job session (Success, Warning, Failed, Running, No Info).
 * Type — job type (Backup, Replication, SureBackup, Backup copy, Backup to tape, VM Copy, SQL database log backup, Oracle database log backup, PostgreSQL database log backup, Storage snapshot, CDP policy).
-* Platform — platform on which protected VMs run (vSphere, Cloud Director, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, Other).
+* Platform — platform on which protected VMs run (vSphere, Cloud Director, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials, Other).
 * Last Run — amount of time since the latest job session started.
 * End Time — date and time when the latest job session ended.
 * Duration — time taken to complete the latest job session.
