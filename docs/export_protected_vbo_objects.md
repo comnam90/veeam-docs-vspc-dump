@@ -3,8 +3,8 @@ title: "Viewing and Exporting Protected Object Details"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/export_protected_vbo_objects.html"
-last_updated: "8/31/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/30/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing and Exporting Protected Object Details
@@ -25,6 +25,8 @@ To narrow down the list of objects, you can apply the following filters:
 
 * Object — search objects by name.
 * Type — limit the list of objects by type (User, Group, Teams, Site).
+* Educational — limit the list of objects by Microsoft 365 Education license consumption (Yes, No).
+* Licensed — limit the list of objects by license consumption (Yes, No).
 * Site/Reseller/Company/Location — limit the list of objects by Veeam Cloud Connect site, reseller, company and location to which jobs belong. To limit the list of jobs by site, reseller, company and location, use filters at the top left corner of the Veeam Service Provider Console window.
 
 The Site filter is available only if you have connected more than one Veeam Cloud Connect server to Veeam Service Provider Console.
