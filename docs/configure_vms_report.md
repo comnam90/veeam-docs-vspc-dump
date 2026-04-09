@@ -3,8 +3,8 @@ title: "Creating Protected VMs Report"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_vms_report.html"
-last_updated: "9/4/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Creating Protected VMs Report
@@ -71,7 +71,7 @@ RPO defines a period between backup sessions, or, in other words, a period for w
 
 1. In the Platform section, specify a platform type for VMs that must be analyzed in the report (All, Virtual Infrastructure, Public Cloud).
 
-If you have selected the Virtual Infrastructure type, you can select which platforms must be analyzed in the report (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore).
+If you have selected the Virtual Infrastructure type, you can select which platforms must be analyzed in the report (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials).
 
 1. In the Job type list, select what type of Veeam Backup & Replication jobs must be analyzed in the report (All, Backup, Replication, Archive, Snapshot, Replica snapshot).
 2. In the Exclusion mask (names) field, specify a mask for excluding VMs from the report scope.
