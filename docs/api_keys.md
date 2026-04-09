@@ -3,8 +3,8 @@ title: "Configuring API Keys"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/api_keys.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/24/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring API Keys
@@ -14,7 +14,7 @@ To configure Veeam Service Provider Console integration with third party solutio
 
 In Veeam Service Provider Console, you can configure the following API keys:
 
-* [Simple Key](#simple) — this API key is recommended for configuring Veeam Service Provider Console REST API authentication. For details, see section [API Key-Based Authorization](https://helpcenter.veeam.com/references/vac/9.1/rest/tag/SectionOverview#section/Authorization-and-Security/API-Key-Based-Authorization) of the REST API Reference.
+* [Simple Key](#simple) — this API key is recommended for configuring Veeam Service Provider Console REST API authentication. For details, see section [API Key-Based Authorization](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/SectionOverview#section/Authorization-and-Security/API-Key-Based-Authorization) of the REST API Reference.
 * [Advanced Key](#rsa) — this API key is recommended for configuring Veeam Service Provider Console internal integrations. For details, see [Plugins and Integration](plugins.md).
 
 Required Privileges
@@ -30,7 +30,7 @@ To generate simple API key:
 For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the top right corner of the Veeam Service Provider Console window, click Configuration.
-2. In the configuration menu on the left, click REST API Keys.
+2. In the configuration menu on the left, click Access Management and navigate to the REST API Keys tab.
 3. At the top of the list, click New > Simple Key (Recommended).
 4. In the Create Key window, enter a description for the API key.
 5. If you want to enable read-only access to the API key, set the Read-only access toggle to On.
@@ -57,7 +57,7 @@ To generate public and private API keys:
 For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the top right corner of the Veeam Service Provider Console window, click Configuration.
-2. In the configuration menu on the left, click REST API Keys.
+2. In the configuration menu on the left, click Access Management and navigate to the REST API Keys tab.
 3. At the top of the list, click New > Advanced Key.
 4. In the Create Key window, select API key type:
 
