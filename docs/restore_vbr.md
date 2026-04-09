@@ -3,8 +3,8 @@ title: "Restoring Veeam Backup & Replication Workloads"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/restore_vbr.html"
-last_updated: "11/26/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/20/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Restoring Veeam Backup & Replication Workloads

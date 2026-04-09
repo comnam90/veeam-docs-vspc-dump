@@ -3,8 +3,8 @@ title: "Cloud Connect"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/trends_cc.html"
-last_updated: "10/20/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/20/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Cloud Connect

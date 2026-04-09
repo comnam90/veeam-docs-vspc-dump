@@ -3,8 +3,8 @@ title: "Step 4. Specify Backup Repository Settings"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vcd_job_repository.html"
-last_updated: "11/17/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/3/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 4. Specify Backup Repository Settings
