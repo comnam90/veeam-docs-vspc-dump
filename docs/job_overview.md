@@ -3,8 +3,8 @@ title: "Session States"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/job_overview.html"
-last_updated: "8/25/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Session States
@@ -35,7 +35,7 @@ By default, the dashboard represents data for all job types for the last 30 days
 
 * Workload type — limits the list of represented jobs by workload type (Computer, VM, Cloud VM, Cloud database, Cloud file share, Cloud network, File share, Object storage, Files, Users).
 * Infrastructure — limits the list of represented jobs by infrastructure type (Cloud, Local).
-* Platform — limits the list of represented jobs by platform (Amazon Web Services, Microsoft Azure, Google Cloud, Microsoft 365, Cloud Director, vSphere, Hyper-V, AHV, Physical, oVirt KVM, Proxmox VE, SC HyperCore).
+* Platform — limits the list of represented jobs by platform (Amazon Web Services, Microsoft Azure, Google Cloud, Microsoft 365, Cloud Director, vSphere, Hyper-V, AHV, Physical, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials).
 * Job types — limits the list of represented jobs by type (Backup, Replication, Replica snapshot, Backup copy, Backup to tape, File to tape, Copy, SureBackup, Snapshot, Archive).
 
 To see detailed information on all job sessions on specific day, click the cell associated with that day. The Job Details window will open.
