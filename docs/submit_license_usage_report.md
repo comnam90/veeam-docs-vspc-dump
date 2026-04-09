@@ -3,8 +3,8 @@ title: "Submitting License Usage Report"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/submit_license_usage_report.html"
-last_updated: "9/9/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/18/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Submitting License Usage Report
@@ -107,6 +107,8 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 * In the To field, specify an email address at which notifications must be sent.
 
 You can specify multiple addresses separated with semicolons.
+
+* If you want to include in the email a CSV file with the usage report data, select the Include CSV report in the email check box.
 
 ![Submitting License Usage Report](images/auto_report_delivery.webp)
 
