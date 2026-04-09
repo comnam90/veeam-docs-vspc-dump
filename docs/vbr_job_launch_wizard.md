@@ -3,8 +3,8 @@ title: "Step 1. Launch New vSphere Backup Job Wizard"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_job_launch_wizard.html"
-last_updated: "11/26/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/3/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 1. Launch New vSphere Backup Job Wizard
@@ -18,7 +18,9 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. In the menu on the left, click Backup Jobs.
 2. Open the Virtual Machines tab and navigate to Virtual Infrastructure.
-3. At the top of the jobs list, click Configuration and select New > vSphere Backup Job.
+3. At the top of the jobs list, click New > vSphere Backup Job.
+
+Alternatively, you can right-click on the jobs list and select New > vSphere Backup Job.
 
 Veeam Service Provider Console will open the Create Job window.
 
