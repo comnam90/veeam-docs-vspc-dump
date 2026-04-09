@@ -3,8 +3,8 @@ title: "Overview"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/overview.html"
-last_updated: "9/11/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/12/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Overview
@@ -14,7 +14,7 @@ The Overview dashboard consolidates information on the health state of connected
 
 Required Privileges
 
-To perform this task, a user must have the following role assigned: Portal Administrator.
+To perform this task, a user must have one of the following roles assigned: Portal Administrator, Portal Operator, Read-only User.
 
 Accessing Overview Dashboard
 
