@@ -3,8 +3,8 @@ title: "Modifying Alarm Settings"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/modify_alarm_settings.html"
-last_updated: "1/8/2026"
-product_version: "9.1.0.30636"
+last_updated: "3/2/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Modifying Alarm Settings
@@ -55,7 +55,7 @@ To reset alarm rules to default settings, click Reset.
 
 [![Customize Alarm Rules](images/modify_alarm_rules.webp)](images/modify_alarm_rules.webp "Customize Alarm Rules")
 
-To include jobs in or exclude jobs from the alarm detection, you can configure filters:
+To include objects in or exclude objects from the alarm detection, you can configure filters:
 
 * In the Job/Policy name field, specify names and masks for jobs/policies that you want to include in the alarm detection. Separate multiple job/policy names with semicolons and without spaces.
 
@@ -65,15 +65,13 @@ To trigger alarms for jobs/policies with similar names, specify the job/policy n
 
 To trigger alarms for jobs/policies whose names differ by only 1 character, specify the job/policy name with '?' which stands for one character. For example, Job?. Veeam Service Provider Console will trigger alarms only for Job3.
 
-* In the Exclusion mask field, specify names and masks for jobs or workloads that you want to exclude from the alarm detection. Separate multiple names with semicolons and without spaces.
+* In the Job/VM/Database exclusion mask field, specify names and masks for jobs or workloads that you want to exclude from the alarm detection. Separate multiple names with semicolons and without spaces.
 
-To disable alarms for specific jobs or workloads, specify the names of all items. For example, VM\_1;VM2;VM3. Veeam Service Provider Console will disable alarms for specified VMs.
+To disable alarms for specific jobs or workloads, specify the names of all items. For example, Job\_1;Job2;Job3. Veeam Service Provider Console will disable alarms for specified jobs.
 
 To disable alarms for jobs or workloads with similar names, specify the name with ‘\*’ (asterisk) which stands for zero or more characters. For example, VM\*. Veeam Service Provider Console will disable alarms for VM\_1, VM2, VM3.
 
-To disable alarms for jobs or workloads whose names differ by only 1 character, specify the name with '?' which stands for one character. For example, VM?. Veeam Service Provider Console will disable alarms for VM2 and VM3.
-
-Note that the exclusion mask will apply only to only one workload type. The type of excluded workload depends on the alarm scope.
+To disable alarms for jobs or workloads whose names differ by only 1 character, specify the name with '?' which stands for one character. For example, Job?. Veeam Service Provider Console will disable alarms for Job2 and Job3.
 
 * In the Suppress after field, specify how many times alarm can be triggered. After the specified number of triggered alarms is exceeded, the alarm will not trigger until you manually resolve the already triggered alarms.
 
