@@ -3,8 +3,8 @@ title: "Managing Veeam Service Provider Console Agents"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_vac_agents.html"
-last_updated: "6/3/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/20/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Veeam Service Provider Console Agents
@@ -26,6 +26,7 @@ In Veeam Service Provider Console, you can perform the following tasks with mana
 * [Accept and reject management agent connections](accept_reject_connections.md)
 * [Set company to management agents](set_company.md)
 * [Set cloud tenant to management agents](set_cloud_tenant.md)
+* [Accessing remote PowerShell console](access_ps.md)
 * [Reboot computers on which management agents run](reboot_remote_computers.md)
 * [Restart management agent service](restart_management_agent.md)
 * [Collect data from machines hosting management agents](collect_agent_data.md)
