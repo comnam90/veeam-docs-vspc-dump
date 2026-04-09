@@ -3,8 +3,8 @@ title: "Virtual Machines"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/export_protected_vms.html"
-last_updated: "9/4/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Virtual Machines
@@ -28,7 +28,7 @@ To narrow down the list of VMs, you can apply the following filters:
 * Malware state — limit the list of VMs by restore point infection status (Clean, Infected, Suspicious, Unknown).
 * N. of job types — limit the list of VMs by the number of data protection job types (Single, Multiple).
 * Cloud copy — limit the list of VMs by cloud copy existence (Yes, No).
-* Platform — limit the list of VMs by type of platform on which VMs reside (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore).
+* Platform — limit the list of VMs by type of platform on which VMs reside (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials).
 * Immutability — limit the list of VMs by immutability status (Yes, No).
 
 * Site/Reseller/Company/Location — limit the list of jobs by Veeam Cloud Connect site, reseller, company and location to which jobs belong. To limit the list of jobs by site, reseller, company and location, use filters at the top left corner of the Veeam Service Provider Console window.
