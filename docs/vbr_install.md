@@ -3,8 +3,8 @@ title: "Installing Veeam Backup & Replication"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_install.html"
-last_updated: "10/20/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/6/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Installing Veeam Backup & Replication
@@ -12,7 +12,7 @@ product_version: "9.1.0.30636"
 
 You can install Veeam Backup & Replication on discovered computers in client or hosted infrastructure. Veeam Service Provider Console will deploy its management agent on a discovered computer and install Veeam Backup & Replication in silent mode.
 
-For details on installation in silent mode, see section [Installing Veeam Backup & Replication Console in Silent Mode](https://helpcenter.veeam.com/docs/backup/vsphere/install_console_answer_file.html?ver=120) of the Veeam Backup & Replication User Guide.
+For details on installation in silent mode, see section [Installing Veeam Backup & Replication Console in Silent Mode](https://helpcenter.veeam.com/docs/vbr/userguide/install_console_answer_file.html) of the Veeam Backup & Replication User Guide.
 
 How Installation of Veeam Backup & Replication is Performed
 
