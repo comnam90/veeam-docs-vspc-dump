@@ -3,8 +3,8 @@ title: "Alarms"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/appendix_alarms.html"
-last_updated: "10/17/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/2/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Alarms
@@ -62,6 +62,7 @@ Alarms
 | Job session state | This alarm checks whether a job session failed or finished with a warning. | Job | Yes |
 | Job state | This alarm checks whether a job was in a disabled state for more than an allowed time period. | Job | Yes |
 | Management agent connection state | This alarm checks the connection status between Veeam Service Provider Console and a management agent running on a Veeam Backup & Replication server, Veeam Backup Enterprise Manager server or a computer protected with Veeam backup agent. | Management agent | No |
+| Management agent data collection delay | This alarm checks whether a data collection session from a management agent exceeds the maximum allowed data size. | Management agent | Yes |
 | Management agent version is out-of-date | This alarm checks whether the version of a management agent running on a Veeam Backup & Replication server, Veeam Backup Enterprise Manager server or a computer protected with Veeam backup agent matches the version of Veeam Service Provider Console. | Management agent | No |
 | Max allowed backup agent job duration | This alarm checks whether a Veeam backup agent job session has exceeded the maximum allowed session duration. | Backup agent job | No |
 | Max allowed job duration | This alarm checks whether a Veeam Backup & Replication job session has exceeded the maximum allowed session duration. | Job | No |
@@ -83,6 +84,7 @@ Alarms
 | SureBackup job session state | This alarm checks whether one or more verification checks specified in the SureBackup job failed. | VM job (SureBackup) | Yes |
 | Veeam Backup & Replication version is out-of-date | This alarm checks whether Veeam Service Provider Console no longer supports Veeam Backup & Replication or Veeam Cloud Connect server version and the server requires upgrade. | Backup server | Yes |
 | User cloud storage quota | This alarm tracks whether a user is running out of space on a cloud repository. | User | Yes |
+| Veeam Vault storage quota | This alarm checks whether a Veeam Data Cloud Vault tenant is running out of space on a storage vault. | Company | Yes |
 | Veeam ONE license expiration | This alarm checks whether the Veeam ONE product license has expired. | Veeam ONE server | Yes |
 | Veeam ONE server connection state | This alarm checks the connection status between Veeam Service Provider Console and Veeam ONE server. | Veeam ONE server | Yes |
 | Veeam ONE server license exceeded | This alarm checks whether the Veeam ONE product license was exceeded. | Veeam ONE server | Yes |
