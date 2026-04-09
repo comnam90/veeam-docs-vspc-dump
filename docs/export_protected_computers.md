@@ -3,8 +3,8 @@ title: "Viewing and Exporting Protected Computer Details"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/export_protected_computers.html"
-last_updated: "10/27/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/20/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing and Exporting Protected Computer Details

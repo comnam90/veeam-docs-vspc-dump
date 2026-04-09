@@ -3,8 +3,8 @@ title: "About Veeam Service Provider Console"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/about.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/24/2026"
+product_version: "9.2.0.33215"
 ---
 
 # About Veeam Service Provider Console
@@ -22,7 +22,7 @@ General functionality of Veeam Service Provider Console includes:
 * Backup reporting. You can create reports showing whether protected workloads meet established RPO and SLA requirements.
 * Billing. You can monitor and calculate the cost of provided resources and automate billing operations for provided services.
 * License management and usage reporting. You can manage licenses and collect license usage information for managed Veeam products in a single view. Veeam Service Provider Console also allows you to create and manage VCSP Pulse license keys and assign license keys internally or to client companies and resellers without accessing VCSP Pulse portal.
-* REST API. You can perform most of the operations that are available with Web UI using Veeam Service Provider Console REST API. For details, see [REST API Reference](https://helpcenter.veeam.com/references/vac/9.1/rest/tag/SectionAbout).
+* REST API. You can perform most of the operations that are available with Web UI using Veeam Service Provider Console REST API. For details, see [REST API Reference](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/SectionAbout).
 * Creating Veeam Customer Technical Support cases. You can open support cases for all Veeam products without accessing Veeam Customer Technical Support portal. For managed products, Veeam Service Provider Console will automatically collect the necessary log files and attach them to the support case.
 
 For more detailed description of Veeam Service Provider Console features available for managed Veeam products, see [Veeam Service Provider Console Management Capabilities](capability.md).
@@ -73,6 +73,6 @@ Veeam ONE
 
 You can enable alarms integration to monitor and manage in Veeam Service Provider Console alarms triggered on client and hosted Veeam ONE servers.
 
-This document describes how to configure and use Veeam Service Provider Console. The document scope is limited to functionality available in the Administrator Portal, and does not cover features available in the Reseller Portal or Client Portal. For details on Veeam Service Provider Console features available in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.1). For details on Veeam Service Provider Console features available in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.1).
+This document describes how to configure and use Veeam Service Provider Console. The document scope is limited to functionality available in the Administrator Portal, and does not cover features available in the Reseller Portal or Client Portal. For details on Veeam Service Provider Console features available in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.2). For details on Veeam Service Provider Console features available in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.2).
 
 

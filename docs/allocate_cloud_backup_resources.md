@@ -3,8 +3,8 @@ title: "Allocating Cloud Backup Resources"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/allocate_cloud_backup_resources.html"
-last_updated: "9/11/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/21/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Allocating Cloud Backup Resources

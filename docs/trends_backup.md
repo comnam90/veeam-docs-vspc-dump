@@ -3,8 +3,8 @@ title: "Backup Services"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/trends_backup.html"
-last_updated: "10/17/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/20/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Backup Services
@@ -30,5 +30,7 @@ The dashboard includes the following widgets:
 
 * Protected Azure Workloads widget shows how the number of protected Microsoft Azure workloads has been changing during the reporting period. Use the filter at the top right corner of the widget to view information on a selected object (VMs, Azure SQL Databases, Azure Cosmos Databases, Azure Files, Virtual Networks).
 * Protected Google Cloud Workloads widget shows how the number of protected Google Cloud workloads has been changing during the reporting period. Use the filter at the top right corner of the widget to view information on a selected object (VMs, Cloud SQL Databases, Cloud Spanner).
+
+* Storage Vault Data widget shows how the amount of protected data on managed Veeam Data Cloud storage vaults has been changing during the reporting period.
 
 

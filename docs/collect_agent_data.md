@@ -3,8 +3,8 @@ title: "Collecting Data"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/collect_agent_data.html"
-last_updated: "7/31/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Collecting Data
@@ -30,7 +30,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from Veeam backup agent. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from the Veeam backup agent. Click Yes to confirm the operation.
 
 This option is available only if one Veeam backup agent is selected.
 
@@ -47,9 +47,21 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 1. In the menu on the left, click Discovery.
 2. Open the Backup Servers tab.
 3. Select one or more backup servers in the list.
-4. Click Collect Data.
+4. Click Data Collection and choose the required option:
 
-Alternatively, you can right-click the necessary backup server and choose Collect Data.
+* Quick Resync — select this option to collect data changed since the previous data collection session.
+* Full Resync — select this option to perform full data recollection from the server. Click Yes to confirm the operation.
+
+This option is available only if one server is selected.
+
+Depending on the available data, full recollection can take a considerable period of time.
+
+|  |
+| --- |
+| Note: |
+| If you start full data recollection for a backup server for which a full recollection session is already in progress, the running session will be canceled and a new session will start from the beginning. |
+
+Alternatively, you can right-click the necessary backup server, choose Data Collection and select the necessary option.
 
 Collecting Data from Veeam ONE
 
@@ -80,7 +92,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from Veeam Backup for Microsoft 365 server. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from Veeam Backup for Microsoft 365 server. Click Yes to confirm the operation.
 
 This option is available only if one Veeam Backup for Microsoft 365 server is selected.
 
@@ -102,7 +114,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from appliances. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from appliances. Click Yes to confirm the operation.
 
 Alternatively, you can right-click the necessary appliance, choose Data Collection and select the necessary option.
 
@@ -119,8 +131,19 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 3. Click the Veeam Cloud Connect plugin tile.
 4. In the menu on the left, click Servers.
 5. Select the necessary Veeam Cloud Connect server in the list.
-6. Click Server Management and select Collect Data.
 
-Alternatively, you can right-click the necessary Veeam Cloud Connect server, choose Server Management and select Collect Data.
+1. Click Data Collection and choose the required option:
+
+* Quick Resync — select this option to collect data changed since the previous data collection session.
+* Full Resync — select this option to perform full data recollection from the server. Click Yes to confirm the operation.
+
+Depending on the available data, full recollection can take a considerable period of time.
+
+|  |
+| --- |
+| Note: |
+| If you start full data recollection for a Veeam Cloud Connect server for which a full recollection session is already in progress, the running session will be canceled and a new session will start from the beginning. |
+
+Alternatively, you can right-click the necessary appliance, choose Data Collection and select the necessary option.
 
 

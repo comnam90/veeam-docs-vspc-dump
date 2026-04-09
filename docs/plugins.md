@@ -3,8 +3,8 @@ title: "Plugins and Integration"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/plugins.html"
-last_updated: "9/26/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/9/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Plugins and Integration
@@ -15,13 +15,16 @@ Veeam Service Provider Console offers built-in integration with third party solu
 Veeam Service Provider Console offers the following predefined integrations:
 
 * [Integration with Veeam Cloud Connect](integration_cc.md).
-* [Integration with ConnectWise Manage](integration_cwm.md).
 
-* [Integration with VCSP Pulse](integration_pulse.md).
-* [Integration with Veeam ONE](integration_one.md).
 * [Integration with Veeam Backup & Replication](integration_vbr.md).
+* [Integration with Veeam Data Cloud Vault](integration_vault.md).
 * [Integration with Veeam Backup for Microsoft 365](integration_vbo.md).
 * [Integration with Veeam Backup for Public Clouds](integration_clouds.md).
+* [Integration with Veeam ONE](integration_one.md).
+* [Integration with VCSP Pulse](integration_pulse.md).
+
+* [Integration with ConnectWise Manage](integration_cwm.md).
+
 * Integration with Veeam backup agents. For details, see [Managing Veeam Backup Agents](manage_backup_agents.md).
 * [Integration with custom plugins](integration_custom.md).
 * Integration with Grafana for Veeam Service Provider Console RESTful API v3. For details, see section [Integration with Grafana](https://helpcenter.veeam.com/docs/vac/rest/grafana.html) of the REST API Reference.
@@ -30,6 +33,10 @@ If you want to manage Veeam ONE and Veeam Backup for Microsoft 365 servers hoste
 
 Required Privileges
 
-To perform the task, a user must have the following role assigned: Portal Administrator.
+To perform the task, a user must have one of the following roles assigned: Portal Administrator, Site Administrator, Portal Operator, Read-only User.
+
+Site Administrator cannot connect and disconnect Veeam Cloud Connect servers.
+
+Portal Operator and Read-only User can access only the Tenants tab of the Veeam Cloud Connect plugin. Read-only User can only export cloud tenant details. Portal Operator can manage cloud tenants but cannot create, assign or remove cloud tenants.
 
 

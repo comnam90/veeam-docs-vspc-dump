@@ -3,8 +3,8 @@ title: "Veeam Intelligence"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/veeam_intelligence.html"
-last_updated: "12/16/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/10/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Veeam Intelligence

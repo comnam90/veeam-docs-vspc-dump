@@ -3,18 +3,22 @@ title: "Applying Patches to Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_patch.html"
-last_updated: "8/25/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/18/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Applying Patches to Veeam Backup & Replication Servers
 
 
-From time to time, you may obtain from Veeam Software patches aimed to fix known issues in the Veeam Backup & Replication software. A patch is a hotfix or bugfix that does not change product major or minor version. Applying patches on individual backup servers in the client infrastructure may take a lot of time and effort. To streamline this process, you can apply patches to a group of Veeam Backup & Replication managed in Veeam Service Provider Console.
+From time to time, you may obtain from Veeam Software patches aimed to fix known issues in the Veeam Backup & Replication software. A patch is a hotfix or bugfix that does not change product major or minor version. Applying patches on individual backup servers in the client infrastructure may take a lot of time and effort. To streamline this process, you can apply patches to a group of Veeam Backup & Replication servers managed in Veeam Service Provider Console. Only servers on computers running the same OS can be patched at the same time.
 
 The procedure of applying patches to Veeam Backup & Replication servers is performed with the help of a management agent. The management agent obtains patch files available for backup servers within the patching scope from Veeam Installation Server (over the Internet), uploads these files to hosted and client computers within the patching scope, and initiates the patching process on these computers.
 
 Alternatively, you can patch Veeam Backup & Replication servers manually. In this case, the management agent obtains patch files provided by the Administrator Portal user, uploads these files to hosted and client computers within the patching scope, and initiates the patching process on these computers.
+
+For Veeam Backup & Replication servers deployed on Veeam Software Appliance, you can only [upload private fixes](#vsa_fix).
+
+You cannot patch Veeam Backup Enterprise Manager servers in Veeam Service Provider Console. For details on how to update a Veeam Backup Enterprise Manager server, see section [Installing Updates](https://helpcenter.veeam.com/docs/vbr/userguide/update_appliance_install_updates.html) in the Veeam Backup & Replication User Guide.
 
 |  |
 | --- |
@@ -80,9 +84,9 @@ After patching process is finished, scheduled jobs will be enabled automatically
 
 Veeam Service Provider Console will upload patch files to a Veeam Backup & Replication server and initiate patch installation. After patch installation, Veeam Backup & Replication remote components will be updated automatically. To check patching progress and download patching session logs, click a link in the Update Status column. To reschedule or cancel scheduled patch installation, click a link in the Scheduled Updates column.
 
-Applying Patches to Veeam Backup & Replication Servers Manually
+Applying Patches to Windows Veeam Backup & Replication Servers Manually
 
-To patch a Veeam Backup & Replication server manually:
+To patch a Windows Veeam Backup & Replication server manually:
 
 1. Log in to Veeam Service Provider Console.
 
@@ -131,5 +135,38 @@ After patching process is finished, scheduled jobs will be enabled automatically
 Veeam Service Provider Console will upload patch files to a Veeam Backup & Replication server and execute selected action. Do not close your browser tab until patching process is finished. After patch installation, Veeam Backup & Replication remote components will be updated automatically. To check patching progress and download patching session logs, click a link in the Update Status column.
 
 To complete patch installation, you may need to reboot the backup server. For details, see [Rebooting Veeam Backup & Replication Servers](reboot_vbr.md).
+
+Uploading Private Fixes to Linux Veeam Backup & Replication Servers
+
+To upload a private fix to a Veeam Backup & Replication server deployed on Veeam Software Appliance:
+
+1. Log in to Veeam Service Provider Console.
+
+For details, see [Accessing Veeam Service Provider Console](access_vac.md).
+
+1. In the menu on the left, click Discovery.
+
+1. Open the Backup Servers tab.
+
+1. Select one or more backup servers in the list.
+
+To update a High Availability cluster, you must upload the private fix file to each cluster node separately.
+
+1. At the top of the list, click Manage Updates and choose Patch Server.
+
+Alternatively, you can right-click the necessary server, choose Manage Updates and select Patch Server.
+
+1. Click Browse and select a private fix file.
+2. If you want Veeam Backup & Replication to automatically terminate all active jobs and restore processes, temporarily disable scheduled jobs and close Veeam Backup & Replication console, select the Terminate all activities automatically before install check box.
+
+After the upload process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
+
+[![Applying Patches to Veeam Backup & Replication Servers](images/vbr_patch_vsa.webp)](images/vbr_patch_vsa.webp)
+
+1. Click Patch.
+
+Veeam Service Provider Console will upload the private fix file to a Veeam Backup & Replication server and execute the selected actions. Do not close your browser tab until the update process is finished. After the private fix is installed, Veeam Backup & Replication remote components will be updated automatically. To check update progress and download session logs, click a link in the Update Status column.
+
+If necessary, the backup server will reboot automatically to complete the update.
 
 

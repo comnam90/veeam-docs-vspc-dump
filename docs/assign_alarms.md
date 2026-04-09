@@ -3,8 +3,8 @@ title: "Changing Alarm Assignment Scope"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/assign_alarms.html"
-last_updated: "9/10/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/24/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Changing Alarm Assignment Scope
@@ -41,7 +41,7 @@ Alternatively, you can right-click the necessary alarm and choose Assign.
 1. In the Assign Alarm window, clear check boxes next to resellers, companies and locations that must be excluded from the alarm assignment scope.
 2. Clear the All new containers check box if all new containers you create in future must be excluded from the alarm assignment scope.
 
-Organization containers aggregate companies and resellers to simplify the configuration of the alarm assignment scope. Containers are created with Veeam Service Provider Console REST API and can include companies, resellers and other containers. For details on creating containers in Veeam Service Provider Console REST API, see section [Create Container](https://helpcenter.veeam.com/docs/vac/rest/reference/vspc-rest.html#tag/Containers/operation/CreateOrgContainer) of the REST API Reference.
+Organization containers aggregate companies and resellers to simplify the configuration of the alarm assignment scope. Containers are created with Veeam Service Provider Console REST API and can include companies, resellers and other containers. For details on creating containers in Veeam Service Provider Console REST API, see section [Create Container](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/Containers#operation/CreateOrgContainer) of the REST API Reference.
 
 1. Clear the All new companies check box if all new companies you register for a reseller in future must be excluded from the alarm assignment scope.
 2. Clear the All new resellers check box if all new resellers you register in future must be excluded from the alarm assignment scope.

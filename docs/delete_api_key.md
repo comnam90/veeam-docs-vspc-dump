@@ -3,8 +3,8 @@ title: "Deleting API Keys"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/delete_api_key.html"
-last_updated: "8/15/2025"
-product_version: "9.1.0.30636"
+last_updated: "2/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Deleting API Keys
@@ -25,7 +25,7 @@ To delete an API key:
 For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the top right corner of the Veeam Service Provider Console window, click Configuration.
-2. In the configuration menu on the left, click REST API Keys.
+2. In the configuration menu on the left, click Access Management and navigate to the REST API Keys tab.
 3. Select the necessary API key and click Remove at the top of the list.
 
 Alternatively, you can right-click the necessary API key and choose Remove.

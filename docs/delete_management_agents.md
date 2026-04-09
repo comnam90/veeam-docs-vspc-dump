@@ -3,8 +3,8 @@ title: "Uninstalling Management Agents"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/delete_management_agents.html"
-last_updated: "7/1/2025"
-product_version: "9.1.0.30636"
+last_updated: "1/16/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Uninstalling Management Agents
@@ -21,7 +21,7 @@ When you uninstall a management agent from a computer protected with Veeam backu
 |  |
 | --- |
 | Note: |
-| You cannot uninstall management agents in the following cases:   * The management agent has the Rejected status. For details on management agent connection status, see [Accepting and Rejecting Management Agent Connections](accept_reject_connections.md). * The management agent is installed on a computer on which Veeam Cloud Connect is deployed. To uninstall this management agent, you must unregister the Veeam Cloud Connect server. For details, see [Removing Veeam Cloud Connect Servers](remove_cloud_servers.md). |
+| You cannot uninstall management agents in the following cases:   * The management agent has the Rejected status. For details on management agent connection status, see [Accepting and Rejecting Management Agent Connections](accept_reject_connections.md). * The management agent is installed on a computer on which Veeam Cloud Connect is deployed. To uninstall this management agent, you must unregister the Veeam Cloud Connect server. For details, see [Removing Veeam Cloud Connect Servers](remove_cloud_servers.md). * The management agent is installed on a computer on which a node of the High Availability cluster is deployed. To uninstall this management agent, you must delete the cluster. For details, see [Managing Backup High Availability Clusters](vbr_ha_clusters.md#remove). |
 
 Required Privileges
 

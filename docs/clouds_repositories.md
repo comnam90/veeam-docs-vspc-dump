@@ -3,8 +3,8 @@ title: "Managing Veeam Backup for Public Clouds Repositories"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/clouds_repositories.html"
-last_updated: "8/19/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/6/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Veeam Backup for Public Clouds Repositories
@@ -39,7 +39,7 @@ Veeam Service Provider Console will open a Veeam Backup for Public Clouds reposi
 
 For details on creating Veeam Backup for Veeam Backup for Public Clouds repositories, see the following sections of the Veeam Backup for Veeam Backup for Public Clouds guides:
 
-* [Adding Backup Repositories](https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add.html) of the Veeam Backup for AWS User Guide.
+* [Adding Backup Repositories Using Console](https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_console.html) and [Adding Backup Repositories Using Web UI](https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_ui.html) of the Veeam Backup for AWS User Guide.
 * [Adding Backup Repositories](https://helpcenter.veeam.com/docs/vbazure/guide/adding_repositories.html) of the Veeam Backup for Microsoft Azure User Guide.
 * [Adding Backup Repositories](https://helpcenter.veeam.com/docs/vbgc/guide/adding_repositories.html) of the Veeam Backup for Google Cloud User Guide.
 
