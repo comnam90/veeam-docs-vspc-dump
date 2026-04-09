@@ -3,8 +3,8 @@ title: "How to Deploy Veeam Backup Agents in Offline Mode"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/install_agents_offline.html"
-last_updated: "11/27/2025"
-product_version: "9.1.0.30636"
+last_updated: "3/11/2026"
+product_version: "9.2.0.33215"
 ---
 
 # How to Deploy Veeam Backup Agents in Offline Mode
@@ -20,7 +20,7 @@ Before you install Veeam backup agents in the offline mode, you must disable pro
 2. In the configuration menu on the left, click About.
 3. In the Product Updates & Download section, switch the Automatic checks (recommended) toggle to Off.
 
-Alternatively, you can disable product updates notifications during Veeam Service Provider Console installation. For details, see section [Deploying Veeam Service Provider Console](https://helpcenter.veeam.com/docs/vac/deployment/deploy_vac.html?ver=81) of the Deployment Guide.
+Alternatively, you can disable product updates notifications during Veeam Service Provider Console installation. For details, see section [Deploying Veeam Service Provider Console](https://helpcenter.veeam.com/docs/vac/deployment/deploy_vac.html?ver=9.2) of the Deployment Guide.
 
 Step 2. Download Veeam Backup Agents Setup Files
 
