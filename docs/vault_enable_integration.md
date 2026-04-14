@@ -3,7 +3,7 @@ title: "Enabling Veeam Data Cloud Vault Integration"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vault_enable_integration.html"
-last_updated: "3/20/2026"
+last_updated: "4/13/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -30,7 +30,14 @@ To generate new registration token, click Regenerate.
 Veeam Service Provider Console will open the Veeam Data Cloud portal.
 
 1. Sign in to Veeam Data Cloud.
-2. In the Register New Product window, insert the copied registration token and click Register.
+2. In the Register New Product window, do the following:
+
+1. In the Registration Token field, insert the copied registration token.
+2. From the Register For drop-down list, select your Veeam Data Cloud organization.
+
+In the organizations list, your service provider organization is marked as Self.
+
+1. Click Register.
 
 You will be automatically redirected to Veeam Service Provider Console.
 
