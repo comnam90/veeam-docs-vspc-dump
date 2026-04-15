@@ -3,8 +3,8 @@ title: "Managing Alarms"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_alarms.html"
-last_updated: "1/11/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/15/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Alarms
@@ -15,7 +15,7 @@ Veeam Service Provider Console includes a set of predefined alarms that you can 
 |  |
 | --- |
 | Note: |
-| The following users can manage alarms in Veeam Service Provider Console: Portal Administrator, Company Owner, Company Administrator, Service Provider Global Administrator, Service Provider Administrator. Note that alarm configuration is not synchronized between the Administrator, Reseller and Client Portals. When you modify, enable or disable alarms as a Portal Administrator, these changes are not applied to alarms managed by a Company Owner or Company Administrator in the Client Portal.  A similar rule applies to alarm notifications: notifications about alarms configured in the Administrator Portal will be sent to Portal Administrators, while notifications about alarms configured in the Client Portal will be sent to Company Owners and Company Administrators. |
+| The following users can manage alarms in Veeam Service Provider Console: Portal Administrator, Company Owner, Company Administrator, Service Provider Global Administrator, Service Provider Administrator.  Note that alarm configuration is not synchronized between the Administrator, Reseller and Client Portals. For example, when Portal Administrator modifies, enables or disables alarms, these changes are not applied to alarms managed by a Company Owner or Company Administrator in the Client Portal or to alarms managed by a Service Provider Global Administrator or Service Provider Administrator in the Reseller Portal.  A similar rule applies to alarm notifications:   * Notifications about alarms configured in the Administrator Portal will be sent to Portal Administrators. * Notifications about alarms configured in the Reseller Portal will be sent to Veeam Service Provider Console Global Administrator and Veeam Service Provider Console Administrator. * Notifications about alarms configured in the Client Portal will be sent to Company Owners and Company Administrators. |
 
 In This Section
 
