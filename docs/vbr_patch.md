@@ -3,7 +3,7 @@ title: "Applying Patches to Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_patch.html"
-last_updated: "3/18/2026"
+last_updated: "4/15/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -76,7 +76,7 @@ If you do not select the check box, you may need to reboot the backup server man
 
 1. If you want Veeam Backup & Replication to automatically stop all active jobs and restore processes, temporarily disable scheduled jobs and close Veeam Backup & Replication console, select the Terminate all activities automatically before install check box.
 
-After patching process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
+After the patching process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
 
 [![Automated Patching](images/vbr_patch_auto.webp)](images/vbr_patch_auto.webp "Automated Patching")
 
@@ -126,7 +126,7 @@ If you do not select the check box, you may need to reboot the backup server man
 
 1. If you want Veeam Backup & Replication to automatically terminate all active jobs and restore processes, temporarily disable scheduled jobs and close Veeam Backup & Replication console, select the Terminate all activities automatically before install check box.
 
-After patching process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
+After the patching process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
 
 [![Manual Patching](images/vbr_patch.webp)](images/vbr_patch.webp "Manual Patching")
 
@@ -156,10 +156,10 @@ To update a High Availability cluster, you must upload the private fix file to e
 
 Alternatively, you can right-click the necessary server, choose Manage Updates and select Patch Server.
 
-1. Click Browse and select a private fix file.
+1. Click Browse and select a .BNDL file with private fix.
 2. If you want Veeam Backup & Replication to automatically terminate all active jobs and restore processes, temporarily disable scheduled jobs and close Veeam Backup & Replication console, select the Terminate all activities automatically before install check box.
 
-After the upload process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
+After the patching process is finished, scheduled jobs will be enabled automatically. Note that some jobs cannot be stopped automatically.
 
 [![Applying Patches to Veeam Backup & Replication Servers](images/vbr_patch_vsa.webp)](images/vbr_patch_vsa.webp)
 
