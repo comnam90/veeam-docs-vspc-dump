@@ -3,8 +3,8 @@ title: "Step 6. Choose Volumes to Back Up"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/choose_volumes.html"
-last_updated: "8/25/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/15/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 6. Choose Volumes to Back Up
@@ -16,7 +16,7 @@ The Volumes step of the wizard is available if at the [Backup Mode](choose_backu
 
 1. Select the Operating system check box, if you want to back up data pertaining to the OS installed on a protected computer.
 
-With this option enabled, Veeam Agent for Microsoft Windows will include in the backup scope the Microsoft Windows system partition and boot partition of your computer. For GPT disks on Microsoft Windows 8.1, 10, 11, 2012, 2012 R2, 2016, 2019 and 2022, Veeam backup agent will additionally back up the recovery partition. For details, see the [System State Data Backup](https://helpcenter.veeam.com/docs/agentforwindows/userguide/system_state_backup.html) section of the the Veeam Agent for Microsoft Windows User Guide.
+With this option enabled, Veeam Agent for Microsoft Windows will include in the backup scope the Microsoft Windows system partition and boot partition of your computer. For GPT disks, Veeam backup agent will additionally back up the recovery partition. For details, see the [System State Data Backup](https://helpcenter.veeam.com/docs/agentforwindows/userguide/system_state_backup.html) section of the the Veeam Agent for Microsoft Windows User Guide.
 
 1. In the text field, type a drive letter and click Add.
 
