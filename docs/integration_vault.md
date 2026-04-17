@@ -3,7 +3,7 @@ title: "Integration with Veeam Data Cloud Vault"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/integration_vault.html"
-last_updated: "3/18/2026"
+last_updated: "4/17/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -40,6 +40,6 @@ In This Section
 * [Enabling Veeam Data Cloud Vault Integration](vault_enable_integration.md)
 * [Managing Veeam Data Cloud Vault Tenants](vault_tenants.md)
 * [Managing Storage Vaults](manage_storage_vaults.md)
-* [Creating Backup Repositories](vault_create_repository.md)
+* [Managing Backup Repositories](vault_backup_repositories.md)
 
 
