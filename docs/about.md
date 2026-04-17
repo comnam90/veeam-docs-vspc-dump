@@ -3,7 +3,7 @@ title: "About Veeam Service Provider Console"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/about.html"
-last_updated: "2/24/2026"
+last_updated: "4/15/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -41,7 +41,8 @@ Veeam Backup & Replication
 
 Veeam Backup & Replication management functionality includes:
 
-* Remote installation, patching and upgrade. You can deploy and configure Veeam Backup & Replication on machines in client and hosted infrastructures, patch and upgrade Veeam Backup & Replication without accessing the remote machines.
+* Remote installation, patching and upgrade. You can deploy and configure Veeam Backup & Replication on Microsoft Windows machines in client and hosted infrastructures, patch and upgrade Veeam Backup & Replication without accessing the remote machines.
+* Private fix uploading for Veeam Software Appliance. You can upload private fix files to Veeam Backup & Replication servers deployed on Veeam Software Appliance without accessing the remote machines.
 
 * Jobs management. You can create backup jobs on hosted Veeam Backup & Replication servers and manage jobs and CDP policies configured to protect VMs, computers, file shares and object storage in client and hosted infrastructures.
 * Failover plans. You can run local and cloud failover plans on managed Veeam Backup & Replication servers.
