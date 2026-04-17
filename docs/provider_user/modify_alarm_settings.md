@@ -3,7 +3,7 @@ title: "Modifying Alarm Settings"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/modify_alarm_settings.html"
-last_updated: "3/2/2026"
+last_updated: "4/17/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -122,7 +122,7 @@ You can specify multiple email addresses separated with commas (,) or semicolons
 
 Running Custom Script
 
-You can add an alarm action that will run a custom script when a new alarm is triggered, or when the alarm status changes. This can be a .BAT, .CMD, .EXE or .PS1 script.
+You can add an alarm action that will run a custom script when a new alarm is triggered, or when the alarm status changes. This can be a .BAT, .CMD or .PS1 script.
 
 By running a script, you can automate routine tasks that are normally performed when specific alarms fire. For example, if a critical system is affected, you may need to immediately open a ticket with the in-house support or perform actions that will eliminate the problem.
 
