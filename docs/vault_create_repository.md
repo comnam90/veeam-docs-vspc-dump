@@ -3,7 +3,7 @@ title: "Creating Backup Repositories"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vault_create_repository.html"
-last_updated: "3/17/2026"
+last_updated: "4/17/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -39,7 +39,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 Veeam Service Provider Console will open the New Repository wizard.
 
-1. If at the step 6 you selected one backup server, at the Creation Mode step of the wizard, select Simple.
+1. If at step 6 you selected one backup server, at the Creation Mode step of the wizard, select Simple.
 2. At the Server Review step of the wizard, review vault assignments for Veeam Backup & Replication servers.
 
 Note that repositories will be created only for backup servers that have a Ready status.
@@ -84,7 +84,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the Storage Vault step of the wizard, select a storage vault for which you want to create a repository.
 
-[![Select Backup Server](images/vault_repository_server_adv.webp)](images/vault_repository_server_adv.webp "Select Backup Server")
+[![Select Storage Vault](images/vault_repository_server_adv.webp)](images/vault_repository_server_adv.webp "Select Storage Vault")
 
 1. At the Folder step of the wizard, click Configure and specify the folder that will be used to store data.
 
@@ -103,7 +103,7 @@ If the selected folder belongs to another backup server, select the Overwrite fo
 
 [![Select Folder](images/vault_repository_folder.webp)](images/vault_repository_folder.webp "Select Folder")
 
-1. A the Immutability step of the wizard, specify immutability settings:
+1. At the Immutability step of the wizard, specify immutability settings:
 
 * Select For the entire duration of their retention policy if you want the immutability period to depend on the retention policy of a backup job.
 
