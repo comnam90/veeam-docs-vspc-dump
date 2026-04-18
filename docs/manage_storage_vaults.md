@@ -3,7 +3,7 @@ title: "Managing Storage Vaults"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_storage_vaults.html"
-last_updated: "3/18/2026"
+last_updated: "4/17/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -29,9 +29,9 @@ Before working with storage vaults:
 In This Section
 
 * [Creating Storage Vaults](vault_create_storage.md)
-* [Assigning Storage Vaults](vault_assign_storage.md)
 * [Modifying Storage Vaults](vault_edit_storage.md)
-* [Locking Storage Vaults](vault_storage_read_only.md)
+* [Configuring Vaults Assignment](vault_assign_storage.md)
+* [Managing Read-Only Access Mode](vault_storage_read_only.md)
 * [Removing Storage Vaults](vault_remove_storage.md)
 
 

@@ -3,8 +3,8 @@ title: "Moving Veeam Agent Backups"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/appendix_move_backups.html"
-last_updated: "11/14/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/17/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Moving Veeam Agent Backups
@@ -50,7 +50,7 @@ where:
 
 For example: C:\Backup\ABC\_Company\System\_Backup or C:\Backup\ABC\_Company\Users\John\_Smith\System\_Backup.
 
-1. Move all backup files to the folder created at the step 2 using external tools.
+1. Move all backup files to the folder created at step 2 using external tools.
 
 1. The Veeam Backup Administrator must rescan the cloud repository.
 
@@ -102,8 +102,8 @@ where:
 
 For example, C:\Backup\Extent\_1\ABC\_Company\System\_Backup or C:\Backup\Extent\_1\ABC\_Company\Users\John\_Smith\System\_Backup.
 
-1. Copy the VBM file to both folders created at the step 2 using external tools.
-2. Copy the VBK and VIB files to the folders created at the step 2 using external tools according to the placement policy specified for the backup repository. For details, see the [Backup File Placement](https://helpcenter.veeam.com/docs/vbr/userguide/backup_repository_sobr_placement.html?ver=13) section of the Veeam Backup & Replication User Guide.
+1. Copy the VBM file to both folders created at step 2 using external tools.
+2. Copy the VBK and VIB files to the folders created at step 2 using external tools according to the placement policy specified for the backup repository. For details, see the [Backup File Placement](https://helpcenter.veeam.com/docs/vbr/userguide/backup_repository_sobr_placement.html?ver=13) section of the Veeam Backup & Replication User Guide.
 
 1. The Veeam Backup Administrator must rescan the cloud repository.
 

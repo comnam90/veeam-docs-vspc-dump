@@ -1,16 +1,16 @@
 ---
-title: "Configuring SSO for Okta"
+title: "Configuring SSO for Okta Workforce Identity"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/appendix_okta.html"
-last_updated: "2/10/2026"
-product_version: "9.1.0.30636"
+last_updated: "4/16/2026"
+product_version: "9.2.0.33215"
 ---
 
-# Configuring SSO for Okta
+# Configuring SSO for Okta Workforce Identity
 
 
-To configure SSO authentication with Okta:
+To configure SSO authentication with Okta Workforce Identity:
 
 1. Log in to Veeam Service Provider Console.
 
@@ -37,7 +37,7 @@ Save the link locally.
 
 If you apply changes to Client ID value after link generation, click New link.
 
-1. Access Okta console.
+1. Access Okta Workforce Identity console.
 2. In the menu on the left, click Applications and select Applications.
 
 The Applications page will open.
