@@ -3,14 +3,14 @@ title: "Managing Read-Only Access Mode"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vault_storage_read_only.html"
-last_updated: "3/17/2026"
+last_updated: "4/21/2026"
 product_version: "9.2.0.33215"
 ---
 
 # Managing Read-Only Access Mode
 
 
-If a company exceeds the quota configured for a storage vault, this vault becomes read-only. In this case, all jobs targeted to this vault will fail automatically. After you increase the storage quota, you must disable the read-only access mode manually.
+If a company exceeds the hard quota configured for a storage vault, this vault becomes read-only. In this case, all jobs targeted to this vault will fail automatically. After you increase the storage quota, you must disable the read-only access mode manually.
 
 Disabling Read-Only Access Mode
 
