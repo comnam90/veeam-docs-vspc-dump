@@ -3,14 +3,14 @@ title: "Activating Veeam Backup for Microsoft 365 Servers in Veeam Service Provi
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/activate_vbo_servers.html"
-last_updated: "10/25/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/23/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Activating Veeam Backup for Microsoft 365 Servers in Veeam Service Provider Console
 
 
-If a connected Veeam Backup for Microsoft 365 server does not have Veeam Backup for Microsoft 365 REST API or PowerShell installed and activated, you will not be able to manage the connected server. Veeam Service Provider Console allows you to install the required components and activate Veeam Backup for Microsoft 365 REST API and PowerShell without having to access the Veeam Backup for Microsoft 365 console. For details on how to install Veeam Service Provider Console management agents on  Veeam Backup for Microsoft 365 servers, see [Managing Veeam Service Provider Console Agents](manage_vac_agents.md#agents).
+If a connected Veeam Backup for Microsoft 365 server does not have Veeam Backup for Microsoft 365 REST API or PowerShell installed and activated, you will not be able to manage the connected server. Veeam Service Provider Console allows you to install the required components and activate Veeam Backup for Microsoft 365 REST API and PowerShell without having to access the Veeam Backup for Microsoft 365 console. For details on how to install Veeam Service Provider Console management agents on Veeam Backup for Microsoft 365 servers, see [Managing Veeam Service Provider Console Agents](manage_vac_agents.md#agents).
 
 Activating Veeam Backup for Microsoft 365 Servers
 
