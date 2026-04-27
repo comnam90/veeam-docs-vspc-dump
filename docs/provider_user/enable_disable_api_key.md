@@ -3,8 +3,8 @@ title: "Enabling and Disabling API Keys"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/enable_disable_api_key.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Enabling and Disabling API Keys
@@ -27,7 +27,7 @@ To disable an API key:
 For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the top right corner of the Veeam Service Provider Console window, click Configuration.
-2. In the configuration menu on the left, click REST API Keys.
+2. In the configuration menu on the left, click Access Management.
 3. Select the necessary API key and click Disable at the top of the list.
 
 Alternatively, you can right-click the necessary API key and choose Disable.
@@ -43,7 +43,7 @@ To enable an API key:
 For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. At the top right corner of the Veeam Service Provider Console window, click Configuration.
-2. In the configuration menu on the left, click REST API Keys.
+2. In the configuration menu on the left, click Access Management.
 3. Select the necessary API key and click Enable at the top of the list.
 
 Alternatively, you can right-click the necessary API key and choose Enable.
