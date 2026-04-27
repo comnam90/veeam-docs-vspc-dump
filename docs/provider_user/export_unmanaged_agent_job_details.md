@@ -3,8 +3,8 @@ title: "Computers Protected by Veeam Backup & Replication"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/export_unmanaged_agent_job_details.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Computers Protected by Veeam Backup & Replication
@@ -46,6 +46,7 @@ Each monitored Veeam backup agent job in the list is described with a set of pro
 If a job is assigned to your company by the service provider, some properties may be unavailable.
 
 * Backup Status — status of the latest job session (Success, Warning, Failed, Running).
+
 * Location — name of a location to which a monitored computer belongs.
 * Backup Server — name of a Veeam Backup & Replication server on which the backup job is managed.
 * Job — name of Veeam backup agent job.
