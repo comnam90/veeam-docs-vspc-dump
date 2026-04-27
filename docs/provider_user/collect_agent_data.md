@@ -3,8 +3,8 @@ title: "Collecting Data"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/collect_agent_data.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Collecting Data
@@ -30,7 +30,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from Veeam backup agent. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from the Veeam backup agent. Click Yes to confirm the operation.
 
 This option is available only if one Veeam backup agent is selected.
 
@@ -80,7 +80,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from Veeam Backup for Microsoft 365 server. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from Veeam Backup for Microsoft 365 server. Click Yes to confirm the operation.
 
 This option is available only if one Veeam Backup for Microsoft 365 server is selected.
 
@@ -102,7 +102,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 4. Click Data Collection:
 
 * Quick Resync — select this option to collect data changed since the previous data collection session.
-* Full Resync — select this option to perform full recollect of data from appliances. Click Yes to confirm the operation.
+* Full Resync — select this option to perform full data recollection from appliances. Click Yes to confirm the operation.
 
 Alternatively, you can right-click the necessary appliance, choose Data Collection and select the necessary option.
 
