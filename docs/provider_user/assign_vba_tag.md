@@ -3,8 +3,8 @@ title: "Assigning Custom Tags to Veeam Backup Agents"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/assign_vba_tag.html"
-last_updated: "8/14/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Assigning Custom Tags to Veeam Backup Agents
@@ -26,9 +26,9 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 1. Navigate to one of the following tabs:
 
-* Managed Computers > Discovered Computers or Managed Computers > Backup Agents
-* Backup Jobs > Computers > Managed by Console
-* Protected Data > Computers > Managed by Console
+* * Managed Computers > Discovered Computers or Managed Computers > Backup Agents
+  * Backup Jobs > Computers > Managed by Console
+  * Protected Data > Computers > Managed by Console
 
 1. Select a Veeam backup agent or a computer in the list.
 2. Click a link in the Tag column.
