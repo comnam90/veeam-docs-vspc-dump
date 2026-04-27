@@ -3,8 +3,8 @@ title: "Creating Backup Jobs"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/create_vbo_backup_job.html"
-last_updated: "8/22/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Creating Backup Jobs

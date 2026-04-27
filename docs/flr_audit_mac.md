@@ -3,8 +3,8 @@ title: "Step 4. Review Restored Object Details"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/flr_audit_mac.html"
-last_updated: "10/23/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 4. Review Restored Object Details

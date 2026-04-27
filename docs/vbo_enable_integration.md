@@ -3,8 +3,8 @@ title: "Enabling Veeam Backup for Microsoft 365 Integration"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbo_enable_integration.html"
-last_updated: "7/31/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/23/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Enabling Veeam Backup for Microsoft 365 Integration
