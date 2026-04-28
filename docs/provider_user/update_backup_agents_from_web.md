@@ -3,8 +3,8 @@ title: "Upgrading Veeam Backup Agents from Veeam Installation Server"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/update_backup_agents_from_web.html"
-last_updated: "8/14/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Upgrading Veeam Backup Agents from Veeam Installation Server
@@ -20,7 +20,7 @@ Before you start the upgrade procedure, make sure that:
 
 If the computer is not powered on and you start the upgrade procedure for this computer, Veeam Service Provider Console will wait for 30 days for the computer to become accessible.
 
-* Computers are configured to allow upload of a Veeam backup agent setup file: the File and Printer Sharing (SMB-In) firewall rule must allow inbound traffic.
+* * Computers are configured to allow upload of a Veeam backup agent setup file: the File and Printer Sharing (SMB-In) firewall rule must allow inbound traffic.
 
 Required Privileges
 
