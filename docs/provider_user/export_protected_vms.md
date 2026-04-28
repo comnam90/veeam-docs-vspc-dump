@@ -3,8 +3,8 @@ title: "Virtual Machines"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/export_protected_vms.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Virtual Machines
@@ -28,7 +28,7 @@ To narrow down the list of VMs, you can apply the following filters:
 * Malware state — limit the list of VMs by restore point infection status (Clean, Infected, Suspicious, Unknown).
 * N. of job types — limit the list of VMs by the number of data protection job types (Single, Multiple).
 * Cloud copy — limit the list of VMs by cloud copy existence (Yes, No).
-* Platform — limit the list of VMs by type of platform on which VMs reside (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore).
+* Platform — limit the list of VMs by type of platform on which VMs reside (vSphere, Hyper-V, AHV, oVirt KVM, Proxmox VE, SC HyperCore, HPE Morpheus VM Essentials).
 * Immutability — limit the list of VMs by immutability status (Yes, No).
 
 * Location — limit the list of jobs by location to which jobs belong. To limit the list of jobs by location, use filter at the top left corner of the Veeam Service Provider Console window.
@@ -49,9 +49,9 @@ If a job is assigned to your company by the service provider, some properties ma
 * VM — name of a protected VM.
 * Platform — platform on which protected VM resides.
 * Backup Server — name of a backup server on which a VM protection job is configured.
-* Location — name of a location to which a job belongs.
-* Guest OS — guest operation system installed on a VM.
-* Malware State — antivirus scan result of the created VM restore points.
+* * Location — name of a location to which a job belongs.
+  * Guest OS — guest operation system installed on a VM.
+  * Malware State — antivirus scan result of the created VM restore points.
 
 Note that to view the antivirus scan result, you must connect to Veeam Service Provider Console the Veeam ONE server that monitors the backup server.
 
