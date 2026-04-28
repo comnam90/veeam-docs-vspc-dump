@@ -3,8 +3,8 @@ title: "Viewing and Exporting Protected Computer Details"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/export_protected_computers.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing and Exporting Protected Computer Details
@@ -12,7 +12,7 @@ product_version: "9.1.0.30636"
 
 You can view details of computers protected with Veeam backup agents and export them to a CSV or XML file.
 
-To access protected data details, you must have at least one Veeam backup agent in  your infrastructure.
+To access protected data details, you must have at least one Veeam backup agent in your infrastructure.
 
 Required Privileges
 
@@ -69,6 +69,7 @@ You can click this property, to view and export backup copy job details. For det
 * Latest Restore Point — amount of time since the latest restore point was created for a protected computer.
 
 * Cloud Copy — indicates if the cloud copy exists for a protected computer (Yes, No).
+
 * Location — name of a location to which a monitored computer belongs.
 * Last Heartbeat — time period since a Veeam Service Provider Console management agent sent the latest heartbeat to Veeam Service Provider Console.
 * Last Restore — date and time when the latest file-level restore task started.
