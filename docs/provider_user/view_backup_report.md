@@ -3,8 +3,8 @@ title: "Viewing Backup Reports"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/view_backup_report.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing Backup Reports
@@ -30,6 +30,7 @@ Veeam Service Provider Console will display a list of all generated backup repor
 
 * Report — search backup reports by report configuration name.
 * Type — limit the list of reports by type (All, Protected VMs (RPO & SLA), Protected data backup (RPO), Protected computers (RPO), Protected databases (RPO), Microsoft 365 object backup (SLA), Protected cloud networks (RPO)).
+
 * Time period — limit the list of backup reports by generation date or period.
 
 * Location — limit the list of reports by location to which reports belong. To limit the list of reports by location, use filter at the top left corner of the Veeam Service Provider Console window.
