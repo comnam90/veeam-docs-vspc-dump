@@ -3,8 +3,8 @@ title: "Configuring Backup Job Settings"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/configure_backup_agent_jobs.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring Backup Job Settings

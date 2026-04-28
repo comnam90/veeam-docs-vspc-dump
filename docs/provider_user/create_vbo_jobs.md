@@ -3,8 +3,8 @@ title: "Creating Veeam Backup for Microsoft 365 Jobs"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/create_vbo_jobs.html"
-last_updated: "10/25/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/23/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Creating Veeam Backup for Microsoft 365 Jobs
