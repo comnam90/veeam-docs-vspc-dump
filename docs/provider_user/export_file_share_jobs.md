@@ -3,8 +3,8 @@ title: "File Shares"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/export_file_share_jobs.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # File Shares
@@ -46,6 +46,7 @@ If a job is assigned to your company by the service provider, some properties ma
 * Job Status — status of the latest job session (Success, Warning, Failed, Running, No Info).
 * Job — name of a data protection job.
 * Backup Server — name of a backup server on which a job is configured.
+
 * Location — name of a location to which a job belongs.
 * Server — name of a file share server. If a job protects multiple file shares, this column displays the number of servers included in the job.
 
