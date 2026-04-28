@@ -3,8 +3,8 @@ title: "Step 6. Choose Folders to Back Up"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/choose_files.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 6. Choose Folders to Back Up
@@ -27,8 +27,11 @@ To include in the backup specific files or file types, you can specify file name
 
 Repeat this step for all files and folders that you want to add to the backup.
 
-1. Select the Operating system check box to include in the backup data pertaining to the OS installed on the computer.
-2. Select the Personal files check box to include in the backup the user profile folders, including all user settings and data.
+1. Select the Operating system check box to include in the backup data pertaining to the OS installed on a protected computer.
+
+With this option enabled, Veeam Agent for Microsoft Windows will include in the backup scope the Microsoft Windows system partition and boot partition of your computer. For GPT disks, Veeam backup agent will additionally back up the recovery partition. For details, see the [System State Data Backup](https://helpcenter.veeam.com/docs/agentforwindows/userguide/system_state_backup.html) section of the the Veeam Agent for Microsoft Windows User Guide.
+
+1. Select the Personal files check box to include in the backup the user profile folders, including all user settings and data.
 
 Click a link next to the check box to select which user folders must be included in the backup:
 
@@ -43,6 +46,8 @@ Click a link next to the check box to select which user folders must be included
 You can specify a drive letter at this step. In this case, Veeam backup agent will exclude the whole volume from the backup. Note that it is not recommended to exclude volumes in file-level backup.
 
 To exclude from the backup specific files or file types, you can specify file names and masks for file types that you do not want to back up, for example, OldPhotos.rar, \*.tmp, \*.back. Veeam backup agent will back up all files except files of the specified type.
+
+Note that if you have selected the Operating System check box, Veeam backup agent will not exclude files and folders on the operating system partition from the backup.
 
 Repeat this step for all files and folders that you want to exclude from the backup.
 
