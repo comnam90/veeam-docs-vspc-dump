@@ -3,8 +3,8 @@ title: "Updating Veeam Backup for Microsoft 365 License"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/update_vbo_licenses.html"
-last_updated: "6/19/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/23/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Updating Veeam Backup for Microsoft 365 License

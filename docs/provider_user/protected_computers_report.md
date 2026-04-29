@@ -3,8 +3,8 @@ title: "Protected Computers Backup Report"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/protected_computers_report.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Protected Computers Backup Report
@@ -25,5 +25,6 @@ If a job is assigned to a company by the service provider, some details on prote
 * The Protected Agents subsection displays a list of managed computers that have at least one restore point that meets RPO requirements specified in the report configuration. Information on protected computers in each company location is grouped by Veeam backup agent or backup policy, as configured in the report parameters.
 
 [![View Report Details](images/generated_protected_computers_report.webp)](images/generated_protected_computers_report.webp "View Report Details")
+[![View Report Details](images/generated_protected_computers_report_table.webp)](images/generated_protected_computers_report_table.webp "View Report Details")
 
 

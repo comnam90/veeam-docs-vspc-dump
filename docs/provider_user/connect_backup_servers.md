@@ -3,8 +3,8 @@ title: "Connecting Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/connect_backup_servers.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Connecting Veeam Backup & Replication Servers
@@ -34,7 +34,7 @@ Make sure this port is open on the machine hosting Veeam Backup & Replication.
 
 * User credentials for connecting to the service provider (Company Tenant credentials).
 
-Additionally, if the Veeam Backup & Replication is deployed on a Veeam Software Appliance, make sure to enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
+Additionally, if the Veeam Backup & Replication is deployed on a Enter value, make sure to enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
 
 Connecting  Veeam Backup & Replication Servers Using Veeam Backup & Replication Console
 
@@ -46,12 +46,12 @@ To connect a Veeam Backup & Replication server to Veeam Service Provider Console
 
 A user account under which you log on must have local Administrator privileges or the Veeam Backup Administrator role assigned in Veeam Backup & Replication.
 
-1. [For Veeam Backup & Replication deployed on a Veeam Software Appliance] Log on to a machine where a Veeam Backup & Replication console is deployed.
+1. [For Veeam Backup & Replication deployed on a Enter value] Log on to a machine where a Veeam Backup & Replication console is deployed.
 
 1. Launch the Veeam Backup & Replication console.
 
 * [For Windows Veeam Backup & Replication] Connect to localhost.
-* [For Veeam Backup & Replication deployed on a Veeam Software Appliance] Specify the server address and credentials of a user account with the Veeam Backup Administrator role.
+* [For Veeam Backup & Replication deployed on a Enter value] Specify the server address and credentials of a user account with the Veeam Backup Administrator role.
 
 1. Open the Backup Infrastructure view.
 2. In the inventory pane on the left, select Service Providers.

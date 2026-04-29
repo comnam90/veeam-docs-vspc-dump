@@ -3,8 +3,8 @@ title: "Protected Databases Backup Report"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/protected_databases_report.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Protected Databases Backup Report
@@ -22,5 +22,6 @@ The Protected Databases report analyzes the efficiency of cloud database protect
 * The Protected Databases subsection displays a list of databases that have at least one restore point that meets RPO requirements specified in the report configuration. Information on protected databases in each company location is grouped by policy, backup server or platform type, as configured in the report parameters.
 
 [![View Report Details](images/generated_protected_databases_report.webp)](images/generated_protected_databases_report.webp "View Report Details")
+[![View Report Details](images/generated_protected_databases_report_table.webp)](images/generated_protected_databases_report_table.webp "View Report Details")
 
 

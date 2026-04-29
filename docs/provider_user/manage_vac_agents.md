@@ -3,8 +3,8 @@ title: "Managing Veeam Service Provider Console Agents"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/manage_vac_agents.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Veeam Service Provider Console Agents
@@ -23,6 +23,7 @@ In Veeam Service Provider Console, you can perform the following tasks with mana
 * [Deploy management agents](deploy_management_agents.md)
 * [Upgrade management agents](upgrade_management_agents.md)
 * [Set a master agent for discovery](set_master_agent.md)
+* [Accessing remote PowerShell console](access_ps.md)
 * [Reboot computers on which management agents run](reboot_remote_computers.md)
 * [Restart management agent service](restart_management_agent.md)
 * [Collect data from machines hosting management agents](collect_agent_data.md)

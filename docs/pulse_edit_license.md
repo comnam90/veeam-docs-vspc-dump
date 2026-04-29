@@ -3,8 +3,8 @@ title: "Modifying License Keys"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/pulse_edit_license.html"
-last_updated: "7/31/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Modifying License Keys

@@ -3,14 +3,14 @@ title: "Installing Veeam ONE Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/one_install.html"
-last_updated: "9/15/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Installing Veeam ONE Servers
 
 
-You can install Veeam ONE on discovered computers in client or hosted infrastructure using the command line interface. For details on installation in unattended mode, see section [Installing Veeam ONE in Unattended Mode](https://helpcenter.veeam.com/docs/one/userguide/silent_mode.html?ver=13) of the Veeam ONE User Guide.
+You can install Veeam ONE in unattended mode on discovered computers in client or hosted infrastructure. For details on installation in unattended mode, see section [Installing Veeam ONE in Unattended Mode](https://helpcenter.veeam.com/docs/one/userguide/silent_mode.html?ver=13) of the Veeam ONE User Guide.
 
 How Installation of Veeam ONE is Performed
 

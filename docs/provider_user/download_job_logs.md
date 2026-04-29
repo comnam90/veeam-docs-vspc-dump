@@ -3,8 +3,8 @@ title: "Downloading Job Logs and Session Report"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/download_job_logs.html"
-last_updated: "8/15/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Downloading Job Logs and Session Report
@@ -28,9 +28,9 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 * Data Backup > Object Storage — select this tab to download logs for object storage jobs (Object storage data backup, Object storage data backup copy)
 
 1. Select the necessary jobs in the list.
-2. At the top of the jobs list, click Download Logs.
+2. At the top of the jobs list, click Advanced > Download Logs.
 
-Alternatively, you can right-click the necessary job and select Download Logs.
+Alternatively, you can right-click the necessary job, click Advanced > Download Logs.
 
 1. In the Download Logs window, specify a number of days for which job statistics and logs must be collected.
 

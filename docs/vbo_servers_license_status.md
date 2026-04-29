@@ -3,8 +3,8 @@ title: "Veeam Backup for Microsoft 365"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbo_servers_license_status.html"
-last_updated: "9/10/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/23/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Veeam Backup for Microsoft 365

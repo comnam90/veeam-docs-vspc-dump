@@ -3,8 +3,8 @@ title: "Assigning Custom Tags to Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/vbr_assign_tag.html"
-last_updated: "8/15/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Assigning Custom Tags to Veeam Backup & Replication Servers

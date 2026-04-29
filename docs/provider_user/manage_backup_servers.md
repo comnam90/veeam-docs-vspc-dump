@@ -3,14 +3,14 @@ title: "Managing Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/manage_backup_servers.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Veeam Backup & Replication Servers
 
 
-In Veeam Service Provider Console, you can connect existing Veeam Backup & Replication servers to Veeam Service Provider Console and access Veeam Backup & Replication server PowerShell console.
+In Veeam Service Provider Console, you can connect existing Veeam Backup & Replication servers to Veeam Service Provider Console and manage High Availability Clusters.
 
 |  |
 | --- |
@@ -19,9 +19,10 @@ In Veeam Service Provider Console, you can connect existing Veeam Backup & Repli
 
 In This Section
 
-* [Connecting Veeam Backup & Replication Servers](connect_backup_servers.md)
-* [Managing Backup High Availability Clusters](vbr_ha_clusters.md)
-* [Assigning Custom Tags to Veeam Backup & Replication Servers](vbr_assign_tag.md)
-* [Accessing Veeam Backup & Replication Server PowerShell Console](vbr_ps.md)
+* * [Connecting Veeam Backup & Replication Servers](connect_backup_servers.md)
+  * [Managing Backup High Availability Clusters](vbr_ha_clusters.md)
+  * * [Assigning Custom Tags to Veeam Backup & Replication Servers](vbr_assign_tag.md)
+    * [Restarting Backup Services](reboot_vbr.md)
+    * [Downloading Logs from Veeam Backup & Replication Servers](download_server_logs.md)
 
 

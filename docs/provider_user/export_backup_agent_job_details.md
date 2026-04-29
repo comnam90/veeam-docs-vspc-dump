@@ -3,8 +3,8 @@ title: "Viewing and Exporting Managed Veeam Backup Agent Job Details"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/export_backup_agent_job_details.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing and Exporting Managed Veeam Backup Agent Job Details
@@ -35,7 +35,9 @@ Veeam Service Provider Console will display a list of managed Veeam backup agent
 
 * Computer — limit the list of Veeam backup agents by the name of a protected computer.
 
-* Status — limit the list of jobs by status of the latest job session (Success, Warning, Failed, Running, Info).
+* Job — limit the list of Veeam backup agents by job name.
+
+* Status — limit the list of Veeam backup agents by status of the latest job session (Success, Warning, Failed, Running, Info).
 
 * Platform — limit the list of Veeam backup agents by platform type (Physical, Virtual, Cloud).
 * Operation mode — limit the list of Veeam backup agents by operation mode (Server, Workstation).
@@ -59,8 +61,8 @@ The file with exported data will be saved to the default download location on yo
 
 To narrow down the list of jobs, you can apply the following filters:
 
-* Job Name — limit the list of jobs by name.
-* Job Status — limit the list of jobs by status of the latest job session (Success, Warning, Failed, Running, Info).
+* Job name — limit the list of jobs by name.
+* Status — limit the list of jobs by status of the latest job session (Success, Warning, Failed, Running, Info).
 * Operation mode — limit the list of jobs by operation mode (Server, Workstation).
 * Assigned policy — limit the list of jobs by the status of a backup policy assigned to Veeam backup agent (Assigned, Not assigned, Custom, Out-of-date).
 * Backup target — limit the list of jobs by the location where backup files for a managed computer reside (Local, Offsite).

@@ -3,8 +3,8 @@ title: "Step 16. Specify Guest OS Processing Options"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/specify_processing_options.html"
-last_updated: "1/4/2024"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 16. Specify Guest OS Processing Options

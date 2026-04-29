@@ -3,8 +3,8 @@ title: "Viewing and Exporting Discovery Results"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/view_discovery_results.html"
-last_updated: "8/8/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Viewing and Exporting Discovery Results
@@ -82,13 +82,13 @@ You can click a link in the Scheduled Deployment column to reschedule Veeam Back
 
 You can click a link in the Backup Policy column to manage assigned policies and configure jobs for the selected computer.
 
-* Registration Time — date and time when a Veeam Service Provider Console management agent was connected to Veeam Service Provider Console.
-* IP Address — computer IP address.
-* MAC Address — computer MAC address.
-* Discovery Time — date and time when a computer was discovered.
-* Agent Role — role of a Veeam Service Provider Console management agent (Master, Client).
-* Last Heartbeat — time period since a Veeam Service Provider Console management agent sent the latest heartbeat to Veeam Service Provider Console.
-* Reboot Required — indicates whether computer reboot is required.
+* * Registration Time — date and time when a Veeam Service Provider Console management agent was connected to Veeam Service Provider Console.
+  * IP Address — computer IP address.
+  * MAC Address — computer MAC address.
+  * Discovery Time — date and time when a computer was discovered.
+  * Agent Role — role of a Veeam Service Provider Console management agent (Master, Client).
+  * Last Heartbeat — time period since a Veeam Service Provider Console management agent sent the latest heartbeat to Veeam Service Provider Console.
+  * Reboot Required — indicates whether computer reboot is required.
 
 Exporting Discovered Computers
 

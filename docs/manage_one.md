@@ -3,8 +3,8 @@ title: "Managing Veeam ONE"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_one.html"
-last_updated: "9/12/2025"
-product_version: "9.1.0.30636"
+last_updated: "4/27/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Veeam ONE
@@ -17,7 +17,7 @@ To manage Veeam ONE servers, you must complete the following steps:
 1. [Install Veeam ONE servers on discovered computers](one_install.md) or connect Veeam ONE servers to Veeam Service Provider Console using one of the following ways:
 
 * [Deploy Veeam Service Provider Console management agents](deploy_management_agents.md) on computers hosting Veeam ONE servers.
-* [For hosted infrastructure] [Connect Veeam ONE servers](one_connect_servers.md) in Veeam Service Provider Console plugin.
+* [For hosted infrastructure] [Connect Veeam ONE servers](one_connect_servers.md) in Veeam ONE plugin for Veeam Service Provider Console.
 
 1. [Enable alarms synchronization for managed Veeam ONE servers](enable_disable_alarm_sync.md).
 
@@ -33,6 +33,6 @@ To perform this task, a user must have one of the following roles assigned: Port
 
 Read-only Users can only view and export Veeam ONE server details.
 
-Portal Operators cannot connect Veeam ONE servers in the Veeam Service Provider Console plugin.
+Portal Operators cannot connect Veeam ONE servers in Veeam ONE plugin for Veeam Service Provider Console.
 
 
