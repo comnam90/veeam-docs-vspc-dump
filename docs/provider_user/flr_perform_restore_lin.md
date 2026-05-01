@@ -3,7 +3,7 @@ title: "Step 3. Perform Restore"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/flr_perform_restore_lin.html"
-last_updated: "4/27/2026"
+last_updated: "4/29/2026"
 product_version: "9.2.0.33215"
 ---
 

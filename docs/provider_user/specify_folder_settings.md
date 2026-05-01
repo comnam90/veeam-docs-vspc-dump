@@ -3,7 +3,7 @@ title: "Step 9. Specify Shared Folder Settings"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/specify_folder_settings.html"
-last_updated: "4/27/2026"
+last_updated: "4/29/2026"
 product_version: "9.2.0.33215"
 ---
 
