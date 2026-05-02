@@ -3,16 +3,16 @@ title: "Connecting Linux Veeam Backup Enterprise Manager Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_connect_linux_em.html"
-last_updated: "2/18/2026"
+last_updated: "4/29/2026"
 product_version: "9.2.0.33215"
 ---
 
 # Connecting Linux Veeam Backup Enterprise Manager Servers
 
 
-To deploy a management agent on the Veeam Software Appliance, you must enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
+To deploy a management agent on the Linux Veeam Backup Enterprise Manager server, you must enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
 
-To configure a connection to the Veeam Backup Enterprise Manager server deployed on a Veeam Software Appliance:
+To configure a connection to the Linux Veeam Backup Enterprise Manager server:
 
 1. Log in to Veeam Service Provider Console.
 
