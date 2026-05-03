@@ -3,7 +3,7 @@ title: "Step 1. Launch New Backup Copy Job Wizard"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbo_copy_job_launch_wizard.html"
-last_updated: "4/27/2026"
+last_updated: "4/29/2026"
 product_version: "9.2.0.33215"
 ---
 
