@@ -3,8 +3,8 @@ title: "Connecting Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/connect_backup_servers.html"
-last_updated: "3/20/2026"
-product_version: "9.1.0.30636"
+last_updated: "4/29/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Connecting Veeam Backup & Replication Servers
@@ -30,7 +30,7 @@ Before You Begin
 
 Before you connect Veeam Backup & Replication, make sure that the port used for communication with Veeam Service Provider Console is open on the machine hosting Veeam Backup & Replication.
 
-Additionally, if the Veeam Backup & Replication is deployed on a Veeam Software Appliance, make sure to enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
+Additionally, before you connect Linux Veeam Backup & Replication (Veeam Software Appliance), make sure to enable remote data collection in the Veeam Host Management Console. For details, see [Configuring Backup Infrastructure Settings](https://helpcenter.veeam.com/docs/vbr/userguide/hmc_configure_infrastructure.html?ver=13) in the Veeam Backup & Replication User Guide.
 
 Connecting Client Veeam Backup & Replication Servers Using Veeam Backup & Replication Console
 
@@ -42,12 +42,12 @@ To connect a Veeam Backup & Replication server to Veeam Service Provider Console
 
 A user account under which you log on must have local Administrator privileges or the Veeam Backup Administrator role assigned in Veeam Backup & Replication.
 
-1. [For Veeam Backup & Replication deployed on a Veeam Software Appliance] Log on to a machine where a Veeam Backup & Replication console is deployed.
+1. [For Linux Veeam Backup & Replication] Log on to a machine where a Veeam Backup & Replication console is deployed.
 
 1. Launch the Veeam Backup & Replication console.
 
 * [For Windows Veeam Backup & Replication] Connect to localhost.
-* [For Veeam Backup & Replication deployed on a Veeam Software Appliance] Specify the server address and credentials of a user account with the Veeam Backup Administrator role.
+* [For Linux Veeam Backup & Replication] Specify the server address and credentials of a user account with the Veeam Backup Administrator role.
 
 1. Open the Backup Infrastructure view.
 2. In the inventory pane on the left, select Service Providers.
@@ -97,7 +97,7 @@ Connecting Veeam Backup Enterprise Manager Servers
 
 If Veeam Backup Enterprise Manager is present in the backup infrastructure, you can install the management agent on a machine running Veeam Backup Enterprise Manager. When the agent is installed on a Veeam Backup Enterprise Manager server, Veeam Service Provider Console can obtain data from this server and monitor its health state.
 
-The Veeam Backup Enterprise Manager server deployed on a Veeam Software Appliance must be connected in Veeam Service Provider Console plugin. For details, see [Connecting Linux Veeam Backup Enterprise Manager Servers](vbr_connect_linux_em.md).
+The Linux Veeam Backup Enterprise Manager server must be connected in Veeam Service Provider Console plugin. For details, see [Connecting Linux Veeam Backup Enterprise Manager Servers](vbr_connect_linux_em.md).
 
 The management agent on the Veeam Backup Enterprise Manager server running on a Microsoft Windows machine must be deployed manually. For details, see [Deploying Management Agents Manually](deploy_management_agents.md).
 
