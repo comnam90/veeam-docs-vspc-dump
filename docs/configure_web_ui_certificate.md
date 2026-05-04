@@ -3,8 +3,8 @@ title: "Configuring Web UI Certificate"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_web_ui_certificate.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring Web UI Certificate
@@ -20,7 +20,7 @@ Importing Certificate from Certificate Store
 To establish a secure connection with client applications, a Veeam Service Provider Console Web UI certificate must be a multi-domain TLS certificate signed by a CA and located in the Microsoft Windows certificate store. The certificate must meet the following requirements:
 
 * The certificate subject is equal to the fully qualified domain name (FQDN) of the Veeam Service Provider Console server. For example: CN = vac.domain.local.
-* The Subject Alternative Name field must contain the FQDN of the Veeam Service Provider Console server (for example: DNS:vac.domain.local) and all FQDNs used to access Veeam Service Provider Console web portal, Reseller Portal and Client Portal. For details on Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.1). For details on Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.1).
+* The Subject Alternative Name field must contain the FQDN of the Veeam Service Provider Console server (for example: DNS:vac.domain.local) and all FQDNs used to access Veeam Service Provider Console web portal, Reseller Portal and Client Portal. For details on Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.2). For details on Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.2).
 
 * The minimum key size is 2048 bits. 4096 bits is recommended.
 
