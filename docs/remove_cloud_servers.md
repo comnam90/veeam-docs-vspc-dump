@@ -3,8 +3,8 @@ title: "Removing Veeam Cloud Connect Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/remove_cloud_servers.html"
-last_updated: "3/23/2026"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Removing Veeam Cloud Connect Servers
@@ -45,6 +45,6 @@ For details on configuration database migration, see section [Migrating Veeam Ba
 |  |
 | --- |
 | Note: |
-| If on the migrated server you had cloud tenants that were managed by resellers, consider the following:   * Companies with allocated cloud tenants will be unassigned from resellers. You must re-assign these companies manually. For details, see [Step 9. Assign Companies](add_reseller_companies.md). * Cloud resources from migrated Veeam Cloud Connect server will be removed from resellers. You must re-allocate these resources manually. For details, see [Step 3. Allocate Cloud Resources](allocate_cloud_reseller_quota.md).  * Backup policies configured by resellers will change ownership and will be shown in Veeam Service Provider Console as created by the service provider. Resellers must copy or re-create such backup policies. For details, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_policies.html?ver=9.1) of the Guide for Resellers. |
+| If on the migrated server you had cloud tenants that were managed by resellers, consider the following:   * Companies with allocated cloud tenants will be unassigned from resellers. You must re-assign these companies manually. For details, see [Step 9. Assign Companies](add_reseller_companies.md). * Cloud resources from migrated Veeam Cloud Connect server will be removed from resellers. You must re-allocate these resources manually. For details, see [Step 3. Allocate Cloud Resources](allocate_cloud_reseller_quota.md).  * Backup policies configured by resellers will change ownership and will be shown in Veeam Service Provider Console as created by the service provider. Resellers must copy or re-create such backup policies. For details, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_policies.html?ver=9.2) of the Guide for Resellers. |
 
 
