@@ -3,7 +3,7 @@ title: "Applying Patches to Veeam Backup & Replication Servers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/vbr_patch.html"
-last_updated: "4/21/2026"
+last_updated: "4/29/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -16,7 +16,7 @@ The procedure of applying patches to Veeam Backup & Replication servers is perfo
 
 Alternatively, you can patch Veeam Backup & Replication servers manually. In this case, the management agent obtains patch files provided by the Administrator Portal user, uploads these files to hosted and client computers within the patching scope, and initiates the patching process on these computers.
 
-For Veeam Backup & Replication servers deployed on Veeam Software Appliance, you can only [upload private fixes](#vsa_fix).
+For Linux Veeam Backup & Replication servers (Veeam Software Appliance), you can only [upload private fixes](#vsa_fix).
 
 You cannot patch Veeam Backup Enterprise Manager servers in Veeam Service Provider Console. For details on how to update a Veeam Backup Enterprise Manager server, see section [Installing Updates](https://helpcenter.veeam.com/docs/vbr/userguide/update_appliance_install_updates.html) in the Veeam Backup & Replication User Guide.
 
@@ -43,7 +43,7 @@ If patches for managed backup servers are available on Veeam Installation Server
 |  |
 | --- |
 | Note: |
-| Automated patching is only available for Windows Veeam Backup & Replication servers. Linux Veeam Backup & Replication servers will be updated automatically if this option is enabled on the Veeam Software Appliance. For details, see section [Configuring Updates](https://helpcenter.veeam.com/docs/vbr/userguide/update_appliance_configure_updates.html) of the Veeam Backup & Replication User Guide. |
+| Automated patching is only available for Windows Veeam Backup & Replication servers. Linux Veeam Backup & Replication servers will be updated automatically if this option is enabled on Veeam Software Appliance. For details, see section [Configuring Updates](https://helpcenter.veeam.com/docs/vbr/userguide/update_appliance_configure_updates.html) of the Veeam Backup & Replication User Guide. |
 
 To configure automated patching for a Windows Veeam Backup & Replication server:
 
@@ -143,7 +143,7 @@ To complete patch installation, you may need to reboot the backup server. For de
 
 Uploading Private Fixes to Linux Veeam Backup & Replication Servers
 
-To upload a private fix to a Linux Veeam Backup & Replication server deployed with Veeam Software Appliance:
+To upload a private fix to a Linux Veeam Backup & Replication server:
 
 1. Log in to Veeam Service Provider Console.
 
