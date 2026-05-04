@@ -3,7 +3,7 @@ title: "Configuring Remote Access"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_access.html"
-last_updated: "3/20/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -30,7 +30,7 @@ For details, see [Accessing Veeam Service Provider Console](access_vac.md).
 
 * On the REST API Proxying tab, select if you want to allow Veeam Service Provider Console to send REST API requests to managed products.
 
-For details, see [REST API Reference](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/SectionAbout).
+For details, see [REST API Reference](https://helpcenter.veeam.com/references/vac/9.2/rest/3.6.2/tag/SectionAbout).
 
 * On the PowerShell Sessions tab, select if you want to allow Veeam Service Provider Console to launch PowerShell console on remote computers.
 
