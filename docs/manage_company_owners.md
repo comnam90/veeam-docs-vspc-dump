@@ -3,8 +3,8 @@ title: "Managing Company Owners"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_company_owners.html"
-last_updated: "9/15/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Company Owners
@@ -14,7 +14,7 @@ Each company in Veeam Service Provider Console has one Company Owner user. A Com
 
 Credentials of a Company Owner are required to gain access to the Veeam Service Provider Console Client Portal.
 
-You can think of the Company Owner as of a super user at a company level. In the Client Portal, a Company Owner has access to all monitoring and billing details for all company locations, and can perform all types of configuration and management tasks. For details on Veeam Service Provider Console functionality available to a Company Owner in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.1).
+You can think of the Company Owner as of a super user at a company level. In the Client Portal, a Company Owner has access to all monitoring and billing details for all company locations, and can perform all types of configuration and management tasks. For details on Veeam Service Provider Console functionality available to a Company Owner in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.2).
 
 Creating Company Owner
 
