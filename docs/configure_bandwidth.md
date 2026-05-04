@@ -3,7 +3,7 @@ title: "Step 5. Configure Bandwidth Settings"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_bandwidth.html"
-last_updated: "3/18/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -36,7 +36,7 @@ The list of available cloud gateway pools contains pools that you configured on 
 
 The Data transfer out quota is a soft quota and puts no physical restriction on the cloud repository. When the cloud tenant reaches the specified quota, Veeam Service Provider Console triggers the Company data download quota alarm. You can customize this alarm in accordance with your requirements. For details, see [Modifying Alarm Settings](modify_alarm_settings.md).
 
-Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html?ver=9.1#backup) of the Guide for End Users.
+Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html#backup) of the Guide for End Users.
 
 [![Specify Throttling Settings](images/create_company_throttling.webp)](images/create_company_throttling.webp "Specify Throttling Settings")
 
