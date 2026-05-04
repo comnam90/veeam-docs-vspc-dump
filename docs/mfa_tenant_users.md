@@ -3,8 +3,8 @@ title: "Enabling, Disabling and Resetting MFA for Company Users"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/mfa_tenant_users.html"
-last_updated: "8/25/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Enabling, Disabling and Resetting MFA for Company Users
@@ -46,7 +46,7 @@ Alternatively, you can right-click the necessary user and choose MFA.
 1. In the confirmation window, click Yes.
 2. Click OK to close the Users window.
 
-On the next authorization session, each user will be prompted to configure MFA settings on the Multi-Factor Authentication step of the Edit User wizard as described in the [Modifying User Profile](https://helpcenter.veeam.com/docs/vac/provider_user/modify_user_profile.html?ver=9.1) section of the Guide for End Users.
+On the next authorization session, each user will be prompted to configure MFA settings on the Multi-Factor Authentication step of the Edit User wizard as described in the [Modifying User Profile](https://helpcenter.veeam.com/docs/vac/provider_user/modify_user_profile.html?ver=9.2) section of the Guide for End Users.
 
 |  |
 | --- |
