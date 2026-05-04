@@ -3,8 +3,8 @@ title: "Deploying Mac Management Agents"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/deploy_management_agents_mac.html"
-last_updated: "11/12/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Deploying Mac Management Agents
@@ -35,7 +35,7 @@ Note that for Veeam Service Provider Console management agent to deploy Veeam Ag
 |  |
 | --- |
 | Tip: |
-| You can install Veeam Service Provider Console management agent and Veeam Agent for Mac using the command line interface. For details on installation command-line syntax, see section [Veeam Service Provider Console Management Agent for Mac](https://helpcenter.veeam.com/docs/vac/deployment/silent_install_agent_mac.html?ver=9.1) of the Deployment Guide. |
+| You can install Veeam Service Provider Console management agent and Veeam Agent for Mac using the command line interface. For details on installation command-line syntax, see section [Veeam Service Provider Console Management Agent for Mac](https://helpcenter.veeam.com/docs/vac/deployment/silent_install_agent_mac.html?ver=9.2) of the Deployment Guide. |
 
 If you have downloaded the management agent setup file from Veeam Service Provider Console and the management agent is assigned to a company, it will connect to Veeam Service Provider Console automatically. Otherwise, you must configure the management agent manually.
 
