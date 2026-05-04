@@ -3,8 +3,8 @@ title: "Configuring Backup Policies"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_backup_policies.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring Backup Policies
@@ -23,7 +23,7 @@ By default, Veeam Service Provider Console includes the following predefined bac
 
 In addition to predefined backup policies, you can create multiple custom backup policies with different configuration settings and assign them to different groups of computers. For example, you can configure backup policies for different machine types, applications, companies and so on.
 
-Backup policies can be configured in the Veeam Service Provider Console Administrator Portal, Client Portal and Reseller Portal. In the Administrator Portal, you can configure both public and private policies. A public policy is a policy that is available to all resellers in the Reseller Portal and companies in the Client Portal. A private policy is a policy that is available only to the companies to which it is assigned. In the Client Portal, Company Administrators can configure private policies that are available to this company only, but can be managed in the Administrator and Reseller Portals. For details on working with backup policies in the Client Portal, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/provider_user/configure_backup_policies.html?ver=9.1) of the Guide for End Users. For details on working with backup policies in the Reseller Portal, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_policies.html?ver=9.1) of the Guide for Resellers.
+Backup policies can be configured in the Veeam Service Provider Console Administrator Portal, Client Portal and Reseller Portal. In the Administrator Portal, you can configure both public and private policies. A public policy is a policy that is available to all resellers in the Reseller Portal and companies in the Client Portal. A private policy is a policy that is available only to the companies to which it is assigned. In the Client Portal, Company Administrators can configure private policies that are available to this company only, but can be managed in the Administrator and Reseller Portals. For details on working with backup policies in the Client Portal, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/provider_user/configure_backup_policies.html?ver=9.2) of the Guide for End Users. For details on working with backup policies in the Reseller Portal, see section [Configuring Backup Policies](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_policies.html?ver=9.2) of the Guide for Resellers.
 
 In This Section
 
