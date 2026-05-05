@@ -3,7 +3,7 @@ title: "Allocating Cloud Backup Resources"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/allocate_cloud_backup_resources.html"
-last_updated: "1/21/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -27,19 +27,19 @@ To allocate cloud repository resources to the cloud tenant, configure a cloud re
 
 The VMs quota is a soft quota and puts no physical restriction on the cloud repository. When the cloud tenant reaches the specified quota, Veeam Service Provider Console triggers the VMs stored in cloud repository alarm. You can customize this alarm in accordance with your requirements. For details, see [Modifying Alarm Settings](modify_alarm_settings.md).
 
-Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html?ver=9.1#backup) of the Guide for End Users.
+Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html#backup) of the Guide for End Users.
 
 1. In the Workstations quota field, specify the maximum number of Veeam backup agents in the Workstation mode that the cloud tenant is allowed to store on the cloud repository.
 
 The Workstations quota is a soft quota and puts no physical restriction on the cloud repository. When the cloud tenant reaches the specified quota, Veeam Service Provider Console triggers the Workstation agent backups stored in cloud repository alarm. You can customize this alarm in accordance with your requirements. For details, see [Modifying Alarm Settings](modify_alarm_settings.md).
 
-Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html?ver=9.1#backup) of the Guide for End Users.
+Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html#backup) of the Guide for End Users.
 
 1. In the Servers quota field, specify the maximum number of Veeam backup agents in the Server mode that the cloud tenant is allowed to store on the cloud repository.
 
 The Servers quota is a soft quota and puts no physical restriction on the cloud repository. When the cloud tenant reaches the specified quota, Veeam Service Provider Console triggers the Server agent backups stored in cloud repository alarm. You can customize this alarm in accordance with your requirements. For details, see [Modifying Alarm Settings](modify_alarm_settings.md).
 
-Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html?ver=9.1#backup) of the Guide for End Users.
+Company users will see this quota on the Resources dashboard. For details, see section [Resources](https://helpcenter.veeam.com/docs/vac/provider_user/resources.html#backup) of the Guide for End Users.
 
 1. If the company plans to use WAN accelerators for backup copy jobs that write data to the cloud, select the Enable WAN acceleration through the following server check box and choose a target WAN accelerator configured on the service provider side.
 

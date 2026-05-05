@@ -3,8 +3,8 @@ title: "Deploying Windows Management Agents"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/deploy_management_agents_win.html"
-last_updated: "11/14/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Deploying Windows Management Agents
@@ -26,7 +26,7 @@ If you have downloaded the management agent setup file from the Veeam Service Pr
 |  |
 | --- |
 | Tip: |
-| You can install Veeam Service Provider Console management agent using the command line interface. For details on installation command-line syntax, see section [Veeam Service Provider Console Management Agent for Microsoft Windows](https://helpcenter.veeam.com/docs/vac/deployment/silent_install_agent.html?ver=9.1) of the Deployment Guide. |
+| You can install Veeam Service Provider Console management agent using the command line interface. For details on installation command-line syntax, see section [Veeam Service Provider Console Management Agent for Microsoft Windows](https://helpcenter.veeam.com/docs/vac/deployment/silent_install_agent.html?ver=9.2) of the Deployment Guide. |
 
 Configuring Management Agent
 

@@ -3,7 +3,7 @@ title: "Downloading Veeam Service Provider Console Logs from Veeam ONE Plugin"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/one_logs.html"
-last_updated: "4/27/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 

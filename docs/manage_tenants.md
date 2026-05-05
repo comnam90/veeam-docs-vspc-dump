@@ -3,8 +3,8 @@ title: "Managing Companies"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_tenants.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Companies
@@ -18,7 +18,7 @@ In Veeam Service Provider Console, service provider's clients are represented as
 
 To work with a client in Veeam Service Provider Console, you must register a company account for this client.
 
-Each client that has a registered account in Veeam Service Provider Console can access the Client Portal to view invoices, manage Veeam backup agents and Veeam Backup & Replication jobs, and so on. For details on Veeam Service Provider Console features available to company users, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.1).
+Each client that has a registered account in Veeam Service Provider Console can access the Client Portal to view invoices, manage Veeam backup agents and Veeam Backup & Replication jobs, and so on. For details on Veeam Service Provider Console features available to company users, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.2).
 
 In the Administrator Portal, you can perform the following client management operations: create new companies, modify company properties, delete companies, disable and enable companies, and manage company locations.
 

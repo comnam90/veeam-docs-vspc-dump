@@ -3,8 +3,8 @@ title: "Configuring Backup Reports"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/configure_backup_reports.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Configuring Backup Reports
@@ -12,7 +12,7 @@ product_version: "9.1.0.30636"
 
 Before you run a backup report, you must create and save a report configuration. A report configuration stores custom report settings, such as the scope of the report, scheduling settings and so on. You can create multiple report configurations with different report settings for different companies and locations.
 
-Report configuration can be defined in the Veeam Service Provider Console Administrator Portal, Reseller Portal and Client Portal. Individual public report configurations created by the Administrator Portal users for a company are available to this company in the Client Portal and reseller managing this company in the Reseller Portal. Conversely, report configurations created in the Reseller Portal can be managed by the Administrator Portal users. For details on working with report configuration in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/configure_backup_reports.html?ver=9.1). For details on working with report configuration in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_reports.html?ver=9.1).
+Report configuration can be defined in the Veeam Service Provider Console Administrator Portal, Reseller Portal and Client Portal. Individual public report configurations created by the Administrator Portal users for a company are available to this company in the Client Portal and reseller managing this company in the Reseller Portal. Conversely, report configurations created in the Reseller Portal can be managed by the Administrator Portal users. For details on working with report configuration in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/configure_backup_reports.html?ver=9.2). For details on working with report configuration in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/configure_backup_reports.html?ver=9.2).
 
 Required Privileges
 

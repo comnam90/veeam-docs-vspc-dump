@@ -3,8 +3,8 @@ title: "Accessing Veeam Service Provider Console as Company User"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/access_company_user.html"
-last_updated: "10/20/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Accessing Veeam Service Provider Console as Company User
@@ -12,7 +12,7 @@ product_version: "9.1.0.30636"
 
 If you need to access the Reseller Portal or the Client Portal, you can log in to Veeam Service Provider Console as a company user or a Service Provider Administrator.
 
-For details on Veeam Service Provider Console features available in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.1). For details on Veeam Service Provider Console features available in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.1).
+For details on Veeam Service Provider Console features available in the Client Portal, see [Guide for End Users](https://helpcenter.veeam.com/docs/vac/provider_user/about.html?ver=9.2). For details on Veeam Service Provider Console features available in the Reseller Portal, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.2).
 
 Required Privileges
 

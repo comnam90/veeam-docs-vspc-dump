@@ -3,8 +3,8 @@ title: "Step 7. Configure Notification Settings"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/company_alarms.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Step 7. Configure Notification Settings
@@ -28,7 +28,7 @@ If you change the default welcome email and clear the check box, the welcome ema
 
 1. In the Predefined alarms section, set the Company alarms toggle to On to enable alarms for the company in the client portal.
 
-With this option enabled, alarms in the company client portal will be enabled automatically. For details on working with alarms in the Client Portal, see section [Working with Alarms](https://helpcenter.veeam.com/docs/vac/provider_user/alarms.html?ver=9.1) of the Guide for End Users.
+With this option enabled, alarms in the company client portal will be enabled automatically. For details on working with alarms in the Client Portal, see section [Working with Alarms](https://helpcenter.veeam.com/docs/vac/provider_user/alarms.html?ver=9.2) of the Guide for End Users.
 
 [![Customize Welcome Email](images/create_company_welcome_email.webp)](images/create_company_welcome_email.webp "Customize Welcome Email")
 

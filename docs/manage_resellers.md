@@ -3,8 +3,8 @@ title: "Managing Resellers"
 product: "vspc"
 doc_type: "provider_admin"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_admin/manage_resellers.html"
-last_updated: "11/13/2025"
-product_version: "9.1.0.30636"
+last_updated: "5/4/2026"
+product_version: "9.2.0.33215"
 ---
 
 # Managing Resellers
@@ -24,6 +24,6 @@ All client companies managed by resellers are visible in the Administrator Porta
 
 To delegate client management to a reseller in Veeam Service Provider Console, you must register a reseller account.
 
-Each reseller that has a registered account in Veeam Service Provider Console can access the Reseller Portal to create new client companies, manage data protection jobs, generate invoices and so on. For details on Veeam Service Provider Console features available to reseller users, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.1).
+Each reseller that has a registered account in Veeam Service Provider Console can access the Reseller Portal to create new client companies, manage data protection jobs, generate invoices and so on. For details on Veeam Service Provider Console features available to reseller users, see [Guide for Resellers](https://helpcenter.veeam.com/docs/vac/reseller/about.html?ver=9.2).
 
 

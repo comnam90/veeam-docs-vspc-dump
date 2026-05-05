@@ -3,7 +3,7 @@ title: "Step 2. Specify Job Name and Description"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/vbo_job_name_description.html"
-last_updated: "4/27/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 

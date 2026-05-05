@@ -3,7 +3,7 @@ title: "Enabling and Disabling MFA using REST API"
 product: "vspc"
 doc_type: "provider_user"
 source_url: "https://helpcenter.veeam.com/docs/vac/provider_user/mfa_rest.html"
-last_updated: "4/27/2026"
+last_updated: "5/4/2026"
 product_version: "9.2.0.33215"
 ---
 
@@ -24,7 +24,7 @@ To enable MFA for a user account using Swagger UI:
 
 1. In the internet browser address bar, enter the Veeam Service Provider Console REST API URL in the following format: https://<hostname>:<port>/api.
 2. On the landing page, click SwaggerUI.
-3. Authorize as described in section [Getting Authorization Tokens](https://helpcenter.veeam.com/references/vac/9.2/rest/tag/SectionOverview#section/Evaluation-with-Swagger-UI/Getting-Authorization-Tokens) of the REST API Reference.
+3. Authorize as described in section [Getting Authorization Tokens](https://helpcenter.veeam.com/references/vac/9.2/rest/3.6.2/tag/SectionOverview#section/Evaluation-with-Swagger-UI/Getting-Authorization-Tokens) of the REST API Reference.
 4. Under the Accounts collection, expand the GET /users resource and click Try it out.
 5. In the filter parameter field, type the following: [{"property":"userName","operation":"equals","value":"<User name>"}], where <User name> is the name of a user for whom you want to enable MFA.
 6. Click Execute.
